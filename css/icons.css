@@ -5,28 +5,33 @@ body {
 .icon {
   position: absolute;
 }
+
 .icon:before {
-  content: '';
+  content: "";
   position: absolute;
 }
+
 .icon:after {
-  content: '';
+  content: "";
   position: absolute;
 }
+
 .icon i {
   position: absolute;
 }
+
 .icon i:before {
-  content: '';
+  content: "";
   position: absolute;
 }
+
 .icon i:after {
-  content: '';
+  content: "";
   position: absolute;
 }
 
 .search.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 12px;
   left: 5px;
@@ -45,11 +50,11 @@ body {
   border: solid 1px currentColor;
   border-radius: 100%;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .search-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 1px;
   top: 1px;
@@ -60,7 +65,7 @@ body {
 }
 
 .search-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 12px;
   left: 5px;
@@ -79,11 +84,11 @@ body {
   border: solid 1px currentColor;
   border-radius: 100%;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .magnify.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 12px;
   left: 5px;
@@ -93,17 +98,17 @@ body {
 }
 
 .magnify.icon i:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 6px;
   height: 1px;
   background-color: currentColor;
   -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 .magnify.icon i:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 6px;
   height: 1px;
@@ -115,7 +120,7 @@ body {
   left: 4px;
   top: 4px;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .magnify.icon {
@@ -128,11 +133,11 @@ body {
   border: solid 1px currentColor;
   border-radius: 100%;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .magnify-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 12px;
   left: 5px;
@@ -142,18 +147,18 @@ body {
 }
 
 .magnify-solid.icon i:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 6px;
   height: 1px;
   color: white;
   background-color: currentColor;
   -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 .magnify-solid.icon i:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 6px;
   height: 1px;
@@ -166,7 +171,7 @@ body {
   left: 4px;
   top: 4px;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .magnify-solid.icon {
@@ -180,11 +185,11 @@ body {
   background-color: currentColor;
   border-radius: 100%;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .minify.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 12px;
   left: 5px;
@@ -194,7 +199,7 @@ body {
 }
 
 .minify.icon i:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 6px;
   height: 1px;
@@ -206,7 +211,7 @@ body {
   left: 4px;
   top: 4px;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .minify.icon {
@@ -219,11 +224,11 @@ body {
   border: solid 1px currentColor;
   border-radius: 100%;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .minify-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 12px;
   left: 5px;
@@ -233,7 +238,7 @@ body {
 }
 
 .minify-solid.icon i:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 6px;
   height: 1px;
@@ -246,7 +251,7 @@ body {
   left: 4px;
   top: 4px;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .minify-solid.icon {
@@ -260,29 +265,29 @@ body {
   background-color: currentColor;
   border-radius: 100%;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .close.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 10px;
   width: 21px;
   height: 1px;
   background-color: currentColor;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .close.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 10px;
   width: 21px;
   height: 1px;
   background-color: currentColor;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .close.icon {
@@ -295,7 +300,7 @@ body {
 }
 
 .menu.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 5px;
   left: 0;
@@ -305,7 +310,7 @@ body {
 }
 
 .menu.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: -5px;
   left: 0;
@@ -325,7 +330,7 @@ body {
 }
 
 .arrow-left.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 1px;
   top: -5px;
@@ -334,7 +339,7 @@ body {
   border-top: solid 1px currentColor;
   border-right: solid 1px currentColor;
   -webkit-transform: rotate(-135deg);
-          transform: rotate(-135deg);
+  transform: rotate(-135deg);
 }
 
 .arrow-left.icon {
@@ -348,7 +353,7 @@ body {
 }
 
 .arrow-right.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   right: 1px;
   top: -5px;
@@ -357,7 +362,7 @@ body {
   border-top: solid 1px currentColor;
   border-right: solid 1px currentColor;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .arrow-right.icon {
@@ -371,7 +376,7 @@ body {
 }
 
 .arrow-up.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: -5px;
   top: 1px;
@@ -380,7 +385,7 @@ body {
   border-top: solid 1px currentColor;
   border-right: solid 1px currentColor;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .arrow-up.icon {
@@ -394,7 +399,7 @@ body {
 }
 
 .arrow-down.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: -5px;
   top: 3px;
@@ -403,7 +408,7 @@ body {
   border-top: solid 1px currentColor;
   border-right: solid 1px currentColor;
   -webkit-transform: rotate(135deg);
-          transform: rotate(135deg);
+  transform: rotate(135deg);
 }
 
 .arrow-down.icon {
@@ -417,17 +422,17 @@ body {
 }
 
 .plus.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 15px;
   height: 1px;
   background-color: currentColor;
   -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 .plus.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 15px;
   height: 1px;
@@ -461,27 +466,27 @@ body {
   border-bottom: solid 1px currentColor;
   border-left: solid 1px currentColor;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .remove.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 15px;
   height: 1px;
   background-color: currentColor;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .remove.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 15px;
   height: 1px;
   background-color: currentColor;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .remove.icon {
@@ -492,7 +497,7 @@ body {
 }
 
 .trash.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0px;
   top: -5px;
@@ -505,7 +510,7 @@ body {
 }
 
 .trash.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: -4px;
   top: -2px;
@@ -528,7 +533,7 @@ body {
 }
 
 .trash-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0px;
   top: -5px;
@@ -542,7 +547,7 @@ body {
 }
 
 .trash-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: -4px;
   top: -2px;
@@ -566,7 +571,7 @@ body {
 }
 
 .audio.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 4px;
   bottom: -4px;
@@ -576,7 +581,7 @@ body {
 }
 
 .audio.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 1px;
   top: -6px;
@@ -600,7 +605,7 @@ body {
 }
 
 .audio-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 4px;
   bottom: -4px;
@@ -610,7 +615,7 @@ body {
 }
 
 .audio-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 1px;
   top: -6px;
@@ -635,7 +640,7 @@ body {
 }
 
 .pin.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: 3px;
@@ -655,11 +660,11 @@ body {
   border: solid 1px currentColor;
   border-radius: 7px 7px 7px 0;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .pin-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: 3px;
@@ -682,18 +687,18 @@ body {
   border-radius: 7px 7px 7px 0;
   background-color: currentColor;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .chat.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: 8px;
   width: 4px;
   height: 4px;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
   background-color: white;
   border-bottom: solid 1px currentColor;
   border-right: solid 1px currentColor;
@@ -711,7 +716,7 @@ body {
 }
 
 .chat-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: 8px;
@@ -721,7 +726,7 @@ body {
   border-bottom: solid 1px currentColor;
   border-right: solid 1px currentColor;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .chat-solid.icon {
@@ -737,7 +742,7 @@ body {
 }
 
 .stop.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 7px;
   left: -1px;
@@ -745,7 +750,7 @@ body {
   height: 1px;
   background-color: currentColor;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .stop.icon {
@@ -760,7 +765,7 @@ body {
 }
 
 .stop-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 7px;
   left: -1px;
@@ -769,7 +774,7 @@ body {
   color: white;
   background-color: currentColor;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .stop-solid.icon {
@@ -785,7 +790,7 @@ body {
 }
 
 .clock.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 2px;
   left: 7px;
@@ -793,11 +798,11 @@ body {
   height: 6px;
   background-color: currentColor;
   -webkit-transform-origin: 0% 0%;
-          transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
 }
 
 .clock.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 7px;
   left: 7px;
@@ -805,7 +810,7 @@ body {
   height: 1px;
   background-color: currentColor;
   -webkit-transform-origin: 0% 0%;
-          transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
 }
 
 .clock.icon {
@@ -821,7 +826,7 @@ body {
 }
 
 .clock-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 2px;
   left: 7px;
@@ -830,11 +835,11 @@ body {
   color: white;
   background-color: currentColor;
   -webkit-transform-origin: 0% 0%;
-          transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
 }
 
 .clock-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 7px;
   left: 7px;
@@ -843,7 +848,7 @@ body {
   color: white;
   background-color: currentColor;
   -webkit-transform-origin: 0% 0%;
-          transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
 }
 
 .clock-solid.icon {
@@ -859,7 +864,7 @@ body {
 }
 
 .clock-h3m30.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 7px;
   left: 7px;
@@ -867,11 +872,11 @@ body {
   height: 6px;
   background-color: currentColor;
   -webkit-transform-origin: 0% 0%;
-          transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
 }
 
 .clock-h3m30.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 7px;
   left: 7px;
@@ -879,7 +884,7 @@ body {
   height: 1px;
   background-color: currentColor;
   -webkit-transform-origin: 0% 0%;
-          transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
 }
 
 .clock-h3m30.icon {
@@ -894,7 +899,7 @@ body {
 }
 
 .clock-h3m30-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 7px;
   left: 7px;
@@ -903,11 +908,11 @@ body {
   color: white;
   background-color: currentColor;
   -webkit-transform-origin: 0% 0%;
-          transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
 }
 
 .clock-h3m30-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 7px;
   left: 7px;
@@ -916,7 +921,7 @@ body {
   color: white;
   background-color: currentColor;
   -webkit-transform-origin: 0% 0%;
-          transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
 }
 
 .clock-h3m30-solid.icon {
@@ -932,7 +937,7 @@ body {
 }
 
 .clock-h9m0.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 2px;
   left: 7px;
@@ -940,11 +945,11 @@ body {
   height: 6px;
   background-color: currentColor;
   -webkit-transform-origin: 0% 0%;
-          transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
 }
 
 .clock-h9m0.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 7px;
   left: 3px;
@@ -952,7 +957,7 @@ body {
   height: 1px;
   background-color: currentColor;
   -webkit-transform-origin: 0% 0%;
-          transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
 }
 
 .clock-h9m0.icon {
@@ -967,7 +972,7 @@ body {
 }
 
 .clock-h9m0-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 2px;
   left: 7px;
@@ -976,11 +981,11 @@ body {
   color: white;
   background-color: currentColor;
   -webkit-transform-origin: 0% 0%;
-          transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
 }
 
 .clock-h9m0-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 7px;
   left: 3px;
@@ -989,7 +994,7 @@ body {
   color: white;
   background-color: currentColor;
   -webkit-transform-origin: 0% 0%;
-          transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
 }
 
 .clock-h9m0-solid.icon {
@@ -1005,7 +1010,7 @@ body {
 }
 
 .clock-h9m30.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 7px;
   left: 7px;
@@ -1013,11 +1018,11 @@ body {
   height: 6px;
   background-color: currentColor;
   -webkit-transform-origin: 0% 0%;
-          transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
 }
 
 .clock-h9m30.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 7px;
   left: 3px;
@@ -1025,7 +1030,7 @@ body {
   height: 1px;
   background-color: currentColor;
   -webkit-transform-origin: 0% 0%;
-          transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
 }
 
 .clock-h9m30.icon {
@@ -1040,7 +1045,7 @@ body {
 }
 
 .clock-h9m30-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 7px;
   left: 7px;
@@ -1049,11 +1054,11 @@ body {
   color: white;
   background-color: currentColor;
   -webkit-transform-origin: 0% 0%;
-          transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
 }
 
 .clock-h9m30-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 7px;
   left: 3px;
@@ -1062,7 +1067,7 @@ body {
   color: white;
   background-color: currentColor;
   -webkit-transform-origin: 0% 0%;
-          transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
 }
 
 .clock-h9m30-solid.icon {
@@ -1078,7 +1083,7 @@ body {
 }
 
 .profile.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 2px;
   top: -10px;
@@ -1103,7 +1108,7 @@ body {
 }
 
 .profile-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 2px;
   top: -10px;
@@ -1130,7 +1135,7 @@ body {
 }
 
 .bell.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -2px;
   left: -3px;
@@ -1141,7 +1146,7 @@ body {
 }
 
 .bell.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -5px;
   left: 2px;
@@ -1163,7 +1168,7 @@ body {
 }
 
 .bell-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -2px;
   left: -3px;
@@ -1174,7 +1179,7 @@ body {
 }
 
 .bell-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -5px;
   left: 2px;
@@ -1198,7 +1203,7 @@ body {
 }
 
 .heart.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0px;
   left: 8px;
@@ -1211,7 +1216,7 @@ body {
 }
 
 .heart.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: -5px;
   left: -1px;
@@ -1233,11 +1238,11 @@ body {
   border-left: solid 1px currentColor;
   border-bottom: solid 1px currentColor;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .heart-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0px;
   left: 8px;
@@ -1251,7 +1256,7 @@ body {
 }
 
 .heart-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: -5px;
   left: -1px;
@@ -1275,11 +1280,11 @@ body {
   border-bottom: solid 1px currentColor;
   background-color: currentColor;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .print.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 1px;
   top: -1px;
@@ -1291,7 +1296,7 @@ body {
 }
 
 .print.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 2px;
   top: -3px;
@@ -1313,7 +1318,7 @@ body {
 }
 
 .print-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 1px;
   top: -1px;
@@ -1325,7 +1330,7 @@ body {
 }
 
 .print-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 2px;
   top: -3px;
@@ -1348,7 +1353,7 @@ body {
 }
 
 .edit.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: -12px;
   top: -1px;
@@ -1370,11 +1375,11 @@ body {
   border-radius: 1px;
   border: solid 1px currentColor;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .edit-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: -12px;
   top: -1px;
@@ -1397,11 +1402,11 @@ body {
   border: solid 1px currentColor;
   background-color: currentColor;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .link.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   top: -3px;
   right: -7px;
@@ -1412,7 +1417,7 @@ body {
 }
 
 .link.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: -3px;
   left: -7px;
@@ -1431,11 +1436,11 @@ body {
   height: 1px;
   background-color: currentColor;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .map.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 4px;
   top: -3px;
@@ -1444,11 +1449,11 @@ body {
   border-radius: 1px;
   border: solid 1px currentColor;
   -webkit-transform: skewY(-40deg);
-          transform: skewY(-40deg);
+  transform: skewY(-40deg);
 }
 
 .map.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: -6px;
   top: 1px;
@@ -1457,7 +1462,7 @@ body {
   border-radius: 1px;
   border: solid 1px currentColor;
   -webkit-transform: skewY(-40deg);
-          transform: skewY(-40deg);
+  transform: skewY(-40deg);
 }
 
 .map.icon {
@@ -1470,11 +1475,11 @@ body {
   border-radius: 1px;
   border: solid 1px currentColor;
   -webkit-transform: skewY(20deg);
-          transform: skewY(20deg);
+  transform: skewY(20deg);
 }
 
 .mail.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 7px;
   top: -4px;
@@ -1482,13 +1487,13 @@ body {
   height: 10px;
   background-color: currentColor;
   -webkit-transform-origin: bottom;
-          transform-origin: bottom;
+  transform-origin: bottom;
   -webkit-transform: rotate(54deg);
-          transform: rotate(54deg);
+  transform: rotate(54deg);
 }
 
 .mail.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 7px;
   top: -4px;
@@ -1496,9 +1501,9 @@ body {
   height: 10px;
   background-color: currentColor;
   -webkit-transform-origin: bottom;
-          transform-origin: bottom;
+  transform-origin: bottom;
   -webkit-transform: rotate(-54deg);
-          transform: rotate(-54deg);
+  transform: rotate(-54deg);
 }
 
 .mail.icon {
@@ -1513,7 +1518,7 @@ body {
 }
 
 .mail-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 7px;
   top: -4px;
@@ -1522,13 +1527,13 @@ body {
   color: white;
   background-color: currentColor;
   -webkit-transform-origin: bottom;
-          transform-origin: bottom;
+  transform-origin: bottom;
   -webkit-transform: rotate(54deg);
-          transform: rotate(54deg);
+  transform: rotate(54deg);
 }
 
 .mail-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 7px;
   top: -4px;
@@ -1537,9 +1542,9 @@ body {
   color: white;
   background-color: currentColor;
   -webkit-transform-origin: bottom;
-          transform-origin: bottom;
+  transform-origin: bottom;
   -webkit-transform: rotate(-54deg);
-          transform: rotate(-54deg);
+  transform: rotate(-54deg);
 }
 
 .mail-solid.icon {
@@ -1555,7 +1560,7 @@ body {
 }
 
 .bookmark.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 10px;
   left: 1px;
@@ -1564,7 +1569,7 @@ body {
   border-top: solid 1px currentColor;
   border-left: solid 1px currentColor;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .bookmark.icon {
@@ -1581,7 +1586,7 @@ body {
 }
 
 .bookmark-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 10px;
   left: 1px;
@@ -1591,7 +1596,7 @@ body {
   border-left: solid 1px currentColor;
   background-color: white;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .bookmark-solid.icon {
@@ -1609,7 +1614,7 @@ body {
 }
 
 .camera.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   right: 2px;
   top: -2px;
@@ -1620,7 +1625,7 @@ body {
 }
 
 .camera.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 5px;
   top: 2px;
@@ -1642,7 +1647,7 @@ body {
 }
 
 .camera-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   right: 2px;
   top: -2px;
@@ -1653,7 +1658,7 @@ body {
 }
 
 .camera-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 5px;
   top: 2px;
@@ -1678,7 +1683,7 @@ body {
 }
 
 .focus.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: -2px;
@@ -1687,13 +1692,13 @@ body {
   color: white;
   background-color: currentColor;
   -webkit-transform-origin: center;
-          transform-origin: center;
+  transform-origin: center;
   -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 .focus.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: -2px;
@@ -1702,7 +1707,7 @@ body {
   color: white;
   background-color: currentColor;
   -webkit-transform-origin: center;
-          transform-origin: center;
+  transform-origin: center;
 }
 
 .focus.icon {
@@ -1717,7 +1722,7 @@ body {
 }
 
 .card.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   right: 1px;
   bottom: 2px;
@@ -1727,7 +1732,7 @@ body {
 }
 
 .card.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 1px;
   left: -1px;
@@ -1748,7 +1753,7 @@ body {
 }
 
 .card-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   right: 1px;
   bottom: 2px;
@@ -1759,7 +1764,7 @@ body {
 }
 
 .card-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 1px;
   left: -1px;
@@ -1782,7 +1787,7 @@ body {
 }
 
 .lock.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: -8px;
@@ -1806,7 +1811,7 @@ body {
 }
 
 .lock-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: -8px;
@@ -1831,7 +1836,7 @@ body {
 }
 
 .unlock.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: -4px;
@@ -1841,7 +1846,7 @@ body {
 }
 
 .unlock.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: -8px;
@@ -1865,7 +1870,7 @@ body {
 }
 
 .unlock-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: -4px;
@@ -1875,7 +1880,7 @@ body {
 }
 
 .unlock-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: -8px;
@@ -1900,7 +1905,7 @@ body {
 }
 
 .code.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 8px;
   top: 2px;
@@ -1909,11 +1914,11 @@ body {
   border-bottom: solid 1px currentColor;
   border-right: solid 1px currentColor;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .code.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 2px;
   left: 2px;
@@ -1922,7 +1927,7 @@ body {
   border-left: solid 1px currentColor;
   border-top: solid 1px currentColor;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .code.icon {
@@ -1935,7 +1940,7 @@ body {
 }
 
 .flag.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: -3px;
   top: -2px;
@@ -1956,7 +1961,7 @@ body {
 }
 
 .flag-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: -3px;
   top: -2px;
@@ -1978,7 +1983,7 @@ body {
 }
 
 .tag.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: 3px;
@@ -1989,7 +1994,7 @@ body {
 }
 
 .tag.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 1px;
   top: 1px;
@@ -2000,7 +2005,7 @@ body {
   border-right: solid 1px currentColor;
   border-bottom: solid 1px currentColor;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .tag.icon {
@@ -2016,7 +2021,7 @@ body {
 }
 
 .tag-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: 3px;
@@ -2028,7 +2033,7 @@ body {
 }
 
 .tag-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 1px;
   top: 1px;
@@ -2040,7 +2045,7 @@ body {
   border-bottom: solid 1px currentColor;
   background-color: currentColor;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .tag-solid.icon {
@@ -2057,7 +2062,7 @@ body {
 }
 
 .signal.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: -9px;
   top: -9px;
@@ -2071,7 +2076,7 @@ body {
 }
 
 .signal.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: -5px;
   top: -5px;
@@ -2099,7 +2104,7 @@ body {
 }
 
 .export.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: -5px;
@@ -2108,11 +2113,11 @@ body {
   border-top: solid 1px currentColor;
   border-right: solid 1px currentColor;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .export.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: -5px;
   left: 2px;
@@ -2135,7 +2140,7 @@ body {
 }
 
 .upload.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   top: -8px;
   left: 4px;
@@ -2144,11 +2149,11 @@ body {
   border-top: solid 1px currentColor;
   border-right: solid 1px currentColor;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .upload.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: -8px;
   left: 6px;
@@ -2170,7 +2175,7 @@ body {
 }
 
 .import.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: 1px;
@@ -2179,11 +2184,11 @@ body {
   border-top: solid 1px currentColor;
   border-right: solid 1px currentColor;
   -webkit-transform: rotate(135deg);
-          transform: rotate(135deg);
+  transform: rotate(135deg);
 }
 
 .import.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: -4px;
   left: 2px;
@@ -2206,7 +2211,7 @@ body {
 }
 
 .download.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 4px;
   top: -4px;
@@ -2215,11 +2220,11 @@ body {
   border-top: solid 1px currentColor;
   border-right: solid 1px currentColor;
   -webkit-transform: rotate(135deg);
-          transform: rotate(135deg);
+  transform: rotate(135deg);
 }
 
 .download.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 6px;
   top: -9px;
@@ -2241,7 +2246,7 @@ body {
 }
 
 .upload2.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 4px;
   left: 3px;
@@ -2250,11 +2255,11 @@ body {
   border-top: solid 1px currentColor;
   border-right: solid 1px currentColor;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .upload2.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 4px;
   left: 2px;
@@ -2277,7 +2282,7 @@ body {
 }
 
 .shutdown.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: -2px;
@@ -2300,7 +2305,7 @@ body {
 }
 
 .paperclip.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 1px;
   top: 1px;
@@ -2313,7 +2318,7 @@ body {
 }
 
 .paperclip.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 11px;
   left: -1px;
@@ -2337,11 +2342,11 @@ body {
   border-right: solid 1px currentColor;
   border-top: solid 1px currentColor;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .retweet.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   right: -3px;
   bottom: -2px;
@@ -2354,7 +2359,7 @@ body {
 }
 
 .retweet.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: -3px;
   top: -2px;
@@ -2378,7 +2383,7 @@ body {
 }
 
 .key.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 13px;
   top: 3px;
@@ -2389,7 +2394,7 @@ body {
 }
 
 .key.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 7px;
   top: 3px;
@@ -2410,7 +2415,7 @@ body {
 }
 
 .key-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 13px;
   top: 3px;
@@ -2421,7 +2426,7 @@ body {
 }
 
 .key-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 7px;
   top: 3px;
@@ -2443,7 +2448,7 @@ body {
 }
 
 .key2.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 14px;
   top: 0px;
@@ -2454,7 +2459,7 @@ body {
 }
 
 .key2.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 7px;
   top: 3px;
@@ -2473,11 +2478,11 @@ body {
   border-radius: 50%;
   border: solid 1px currentColor;
   -webkit-transform: rotate(135deg);
-          transform: rotate(135deg);
+  transform: rotate(135deg);
 }
 
 .key2-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 14px;
   top: 0px;
@@ -2488,7 +2493,7 @@ body {
 }
 
 .key2-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 7px;
   top: 3px;
@@ -2508,11 +2513,11 @@ body {
   border: solid 1px currentColor;
   background-color: currentColor;
   -webkit-transform: rotate(135deg);
-          transform: rotate(135deg);
+  transform: rotate(135deg);
 }
 
 .refresh.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 1px;
   top: 10px;
@@ -2521,7 +2526,7 @@ body {
   border-top: solid 1px currentColor;
   border-left: solid 1px currentColor;
   -webkit-transform: rotate(-22.5deg);
-          transform: rotate(-22.5deg);
+  transform: rotate(-22.5deg);
 }
 
 .refresh.icon {
@@ -2539,7 +2544,7 @@ body {
 }
 
 .pilcrow.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 8px;
   top: -1px;
@@ -2564,7 +2569,7 @@ body {
 }
 
 .pilcrow-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 8px;
   top: -1px;
@@ -2590,7 +2595,7 @@ body {
 }
 
 .justified.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 2px;
   left: 0;
@@ -2612,7 +2617,7 @@ body {
 }
 
 .paragraph-direction.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 3px;
   left: 6px;
@@ -2625,7 +2630,7 @@ body {
 }
 
 .paragraph-direction.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 2px;
   left: 0;
@@ -2649,7 +2654,7 @@ body {
 }
 
 .left-align.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 2px;
   left: 0;
@@ -2671,7 +2676,7 @@ body {
 }
 
 .center-align.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 2px;
   left: 3px;
@@ -2693,7 +2698,7 @@ body {
 }
 
 .right-align.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 2px;
   right: 0;
@@ -2715,7 +2720,7 @@ body {
 }
 
 .indent.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 1px;
   width: 0;
@@ -2727,7 +2732,7 @@ body {
 }
 
 .indent.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 2px;
   right: 0;
@@ -2749,7 +2754,7 @@ body {
 }
 
 .outdent.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 1px;
   left: -3px;
@@ -2762,7 +2767,7 @@ body {
 }
 
 .outdent.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 2px;
   right: 0;
@@ -2784,7 +2789,7 @@ body {
 }
 
 .mouse.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   top: -1px;
   left: 5px;
@@ -2794,7 +2799,7 @@ body {
 }
 
 .mouse.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 6px;
   left: -1px;
@@ -2815,7 +2820,7 @@ body {
 }
 
 .mouse-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 5px;
   top: -1px;
@@ -2826,7 +2831,7 @@ body {
 }
 
 .mouse-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 6px;
   left: -1px;
@@ -2849,7 +2854,7 @@ body {
 }
 
 .keyboard.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 1px;
   left: 4px;
@@ -2859,14 +2864,18 @@ body {
 }
 
 .keyboard.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 7px;
   top: 3px;
   width: 1px;
   height: 1px;
   border: 1px solid transparent;
-  box-shadow: -2px 0 0 -1px currentColor,  2px 0 0 -1px currentColor,  0 -2px 0 -1px currentColor,  0 2px 0 -1px currentColor,  -6px 0 0 -1px currentColor,  6px 0 0 -1px currentColor,  -4px -2px 0 -1px currentColor,  -4px 2px 0 -1px currentColor,  4px -2px 0 -1px currentColor,  4px 2px 0 -1px currentColor;
+  box-shadow: -2px 0 0 -1px currentColor, 2px 0 0 -1px currentColor,
+    0 -2px 0 -1px currentColor, 0 2px 0 -1px currentColor,
+    -6px 0 0 -1px currentColor, 6px 0 0 -1px currentColor,
+    -4px -2px 0 -1px currentColor, -4px 2px 0 -1px currentColor,
+    4px -2px 0 -1px currentColor, 4px 2px 0 -1px currentColor;
 }
 
 .keyboard.icon {
@@ -2881,7 +2890,7 @@ body {
 }
 
 .keyboard-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 1px;
   left: 4px;
@@ -2892,7 +2901,7 @@ body {
 }
 
 .keyboard-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 7px;
   top: 3px;
@@ -2900,7 +2909,11 @@ body {
   height: 1px;
   border: 1px solid transparent;
   color: white;
-  box-shadow: -2px 0 0 -1px currentColor,  2px 0 0 -1px currentColor,  0 -2px 0 -1px currentColor,  0 2px 0 -1px currentColor,  -6px 0 0 -1px currentColor,  6px 0 0 -1px currentColor,  -4px -2px 0 -1px currentColor,  -4px 2px 0 -1px currentColor,  4px -2px 0 -1px currentColor,  4px 2px 0 -1px currentColor;
+  box-shadow: -2px 0 0 -1px currentColor, 2px 0 0 -1px currentColor,
+    0 -2px 0 -1px currentColor, 0 2px 0 -1px currentColor,
+    -6px 0 0 -1px currentColor, 6px 0 0 -1px currentColor,
+    -4px -2px 0 -1px currentColor, -4px 2px 0 -1px currentColor,
+    4px -2px 0 -1px currentColor, 4px 2px 0 -1px currentColor;
 }
 
 .keyboard-solid.icon {
@@ -2916,7 +2929,7 @@ body {
 }
 
 .left-double-quote.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 3px;
   left: 9px;
@@ -2927,7 +2940,7 @@ body {
 }
 
 .left-double-quote.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 3px;
   width: 6px;
@@ -2937,7 +2950,7 @@ body {
 }
 
 .left-double-quote.icon i:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 9px;
@@ -2949,11 +2962,11 @@ body {
   border-right: solid 1px transparent;
   border-bottom: solid 1px transparent;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .left-double-quote.icon i:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   width: 12px;
@@ -2964,7 +2977,7 @@ body {
   border-right: solid 1px transparent;
   border-bottom: solid 1px transparent;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .left-double-quote.icon {
@@ -2977,7 +2990,7 @@ body {
 }
 
 .left-double-quote-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 6px;
   height: 6px;
@@ -2989,7 +3002,7 @@ body {
 }
 
 .left-double-quote-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 6px;
   height: 6px;
@@ -3000,7 +3013,7 @@ body {
 }
 
 .left-double-quote-solid.icon i:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 9px;
@@ -3012,11 +3025,11 @@ body {
   border-right: solid 1px transparent;
   border-bottom: solid 1px transparent;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .left-double-quote-solid.icon i:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   width: 12px;
@@ -3027,7 +3040,7 @@ body {
   border-right: solid 1px transparent;
   border-bottom: solid 1px transparent;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .left-double-quote-solid.icon {
@@ -3040,7 +3053,7 @@ body {
 }
 
 .right-double-quote.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0px;
   left: 9px;
@@ -3051,7 +3064,7 @@ body {
 }
 
 .right-double-quote.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0px;
   width: 6px;
@@ -3061,7 +3074,7 @@ body {
 }
 
 .right-double-quote.icon i:after {
-  content: '';
+  content: "";
   position: absolute;
   top: -3px;
   left: 3px;
@@ -3073,11 +3086,11 @@ body {
   border-right: solid 1px currentColor;
   border-bottom: solid 1px transparent;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .right-double-quote.icon i:before {
-  content: '';
+  content: "";
   position: absolute;
   left: -6px;
   top: -3px;
@@ -3089,7 +3102,7 @@ body {
   border-right: solid 1px currentColor;
   border-bottom: solid 1px transparent;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .right-double-quote.icon {
@@ -3102,7 +3115,7 @@ body {
 }
 
 .right-double-quote-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0px;
   left: 9px;
@@ -3114,7 +3127,7 @@ body {
 }
 
 .right-double-quote-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0px;
   width: 6px;
@@ -3125,7 +3138,7 @@ body {
 }
 
 .right-double-quote-solid.icon i:after {
-  content: '';
+  content: "";
   position: absolute;
   top: -3px;
   left: 3px;
@@ -3137,11 +3150,11 @@ body {
   border-right: solid 1px currentColor;
   border-bottom: solid 1px transparent;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .right-double-quote-solid.icon i:before {
-  content: '';
+  content: "";
   position: absolute;
   left: -6px;
   top: -3px;
@@ -3153,7 +3166,7 @@ body {
   border-right: solid 1px currentColor;
   border-bottom: solid 1px transparent;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .right-double-quote-solid.icon {
@@ -3166,7 +3179,7 @@ body {
 }
 
 .left-single-quote.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -3178,11 +3191,11 @@ body {
   border-right: solid 1px transparent;
   border-bottom: solid 1px transparent;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .left-single-quote.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 3px;
   width: 6px;
@@ -3201,7 +3214,7 @@ body {
 }
 
 .left-single-quote-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -3213,11 +3226,11 @@ body {
   border-right: solid 1px transparent;
   border-bottom: solid 1px transparent;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .left-single-quote-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 3px;
   width: 6px;
@@ -3237,7 +3250,7 @@ body {
 }
 
 .right-single-quote.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: -6px;
   top: -3px;
@@ -3249,11 +3262,11 @@ body {
   border-left: solid 1px transparent;
   border-bottom: solid 1px transparent;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .right-single-quote.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0px;
   width: 6px;
@@ -3272,7 +3285,7 @@ body {
 }
 
 .right-single-quote-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: -6px;
   top: -3px;
@@ -3284,11 +3297,11 @@ body {
   border-left: solid 1px transparent;
   border-bottom: solid 1px transparent;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .right-single-quote-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0px;
   width: 6px;
@@ -3308,7 +3321,7 @@ body {
 }
 
 .mustache.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 13px;
   top: 4px;
@@ -3318,13 +3331,13 @@ body {
   border-bottom: 6px solid currentColor;
   border-radius: 0 0 100% 0;
   -webkit-transform-origin: left 7px;
-          transform-origin: left 7px;
+  transform-origin: left 7px;
   -webkit-transform: rotate(40deg);
-          transform: rotate(40deg);
+  transform: rotate(40deg);
 }
 
 .mustache.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 1px;
   top: 4px;
@@ -3334,13 +3347,13 @@ body {
   border: 0 solid transparent;
   border-bottom: 6px solid currentColor;
   -webkit-transform-origin: right 7px;
-          transform-origin: right 7px;
+  transform-origin: right 7px;
   -webkit-transform: rotate(-40deg);
-          transform: rotate(-40deg);
+  transform: rotate(-40deg);
 }
 
 .mustache.icon i:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 13px;
   top: 6px;
@@ -3351,13 +3364,13 @@ body {
   border-bottom: 4px solid currentColor;
   border-radius: 0 0 100% 0;
   -webkit-transform-origin: left 5px;
-          transform-origin: left 5px;
+  transform-origin: left 5px;
   -webkit-transform: rotate(40deg);
-          transform: rotate(40deg);
+  transform: rotate(40deg);
 }
 
 .mustache.icon i:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 2px;
   top: 6px;
@@ -3368,9 +3381,9 @@ body {
   border-bottom: 4px solid currentColor;
   border-radius: 0 0 0 100%;
   -webkit-transform-origin: right 5px;
-          transform-origin: right 5px;
+  transform-origin: right 5px;
   -webkit-transform: rotate(-40deg);
-          transform: rotate(-40deg);
+  transform: rotate(-40deg);
 }
 
 .mustache.icon i {
@@ -3378,7 +3391,7 @@ body {
   height: 4px;
   border-radius: 50%;
   color: white;
-  box-shadow: 6px 9px 0 0 currentColor,  11px 9px 0 0 currentColor;
+  box-shadow: 6px 9px 0 0 currentColor, 11px 9px 0 0 currentColor;
   position: absolute;
   z-index: 2;
 }
@@ -3389,11 +3402,11 @@ body {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  box-shadow: 5px 8px 0 0 currentColor,  10px 8px 0 0 currentColor;
+  box-shadow: 5px 8px 0 0 currentColor, 10px 8px 0 0 currentColor;
 }
 
 .mustache-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 7px;
   height: 4px;
@@ -3403,13 +3416,13 @@ body {
   border: 0 solid transparent;
   border-bottom: 6px solid currentColor;
   -webkit-transform-origin: left 7px;
-          transform-origin: left 7px;
+  transform-origin: left 7px;
   -webkit-transform: rotate(40deg);
-          transform: rotate(40deg);
+  transform: rotate(40deg);
 }
 
 .mustache-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 1px;
   top: 4px;
@@ -3419,9 +3432,9 @@ body {
   border: 0 solid transparent;
   border-bottom: 6px solid currentColor;
   -webkit-transform-origin: right 7px;
-          transform-origin: right 7px;
+  transform-origin: right 7px;
   -webkit-transform: rotate(-40deg);
-          transform: rotate(-40deg);
+  transform: rotate(-40deg);
 }
 
 .mustache-solid.icon {
@@ -3430,11 +3443,11 @@ body {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  box-shadow: 5px 8px 0 0 currentColor,  10px 8px 0 0 currentColor;
+  box-shadow: 5px 8px 0 0 currentColor, 10px 8px 0 0 currentColor;
 }
 
 .eye.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 2px;
   top: 2px;
@@ -3454,11 +3467,11 @@ body {
   border-radius: 70% 15%;
   border: solid 1px currentColor;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .eye-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 2px;
   top: 2px;
@@ -3479,11 +3492,11 @@ body {
   border-radius: 70% 15%;
   border: solid 1px currentColor;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .eye-solid2.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: 3px;
@@ -3505,11 +3518,11 @@ body {
   border: solid 1px currentColor;
   background-color: currentColor;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .eye-solid3.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 2px;
   top: 2px;
@@ -3531,11 +3544,11 @@ body {
   border: solid 1px currentColor;
   background-color: currentColor;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .battery-0.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   right: -3px;
   top: 1px;
@@ -3559,7 +3572,7 @@ body {
 }
 
 .battery-1.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 1px;
   top: 1px;
@@ -3569,7 +3582,7 @@ body {
 }
 
 .battery-1.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   right: -3px;
   top: 1px;
@@ -3593,7 +3606,7 @@ body {
 }
 
 .battery.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 1px;
   top: 1px;
@@ -3603,7 +3616,7 @@ body {
 }
 
 .battery.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   right: -3px;
   top: 1px;
@@ -3627,7 +3640,7 @@ body {
 }
 
 .battery-3.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 1px;
   top: 1px;
@@ -3637,7 +3650,7 @@ body {
 }
 
 .battery-3.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   right: -3px;
   top: 1px;
@@ -3661,7 +3674,7 @@ body {
 }
 
 .battery-solid-0.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0px;
   top: 0px;
@@ -3673,7 +3686,7 @@ body {
 }
 
 .battery-solid-0.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   right: -3px;
   top: 1px;
@@ -3696,7 +3709,7 @@ body {
 }
 
 .battery-solid-1.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0px;
   top: 0px;
@@ -3708,7 +3721,7 @@ body {
 }
 
 .battery-solid-1.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   right: -3px;
   top: 1px;
@@ -3731,7 +3744,7 @@ body {
 }
 
 .battery-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0px;
   top: 0px;
@@ -3743,7 +3756,7 @@ body {
 }
 
 .battery-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   right: -3px;
   top: 1px;
@@ -3766,7 +3779,7 @@ body {
 }
 
 .battery-solid-3.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0px;
   top: 0px;
@@ -3778,7 +3791,7 @@ body {
 }
 
 .battery-solid-3.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   right: -3px;
   top: 1px;
@@ -3801,7 +3814,7 @@ body {
 }
 
 .suitcase.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   width: 7px;
@@ -3811,7 +3824,7 @@ body {
 }
 
 .suitcase.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 4px;
   top: -3px;
@@ -3835,7 +3848,7 @@ body {
 }
 
 .suitcase-1.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   width: 7px;
@@ -3846,7 +3859,7 @@ body {
 }
 
 .suitcase-1.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 4px;
   top: -3px;
@@ -3871,7 +3884,7 @@ body {
 }
 
 .suitcase-2.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   width: 7px;
@@ -3882,7 +3895,7 @@ body {
 }
 
 .suitcase-2.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 4px;
   top: -3px;
@@ -3906,7 +3919,7 @@ body {
 }
 
 .suitcase-3.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 4px;
   width: 7px;
@@ -3916,7 +3929,7 @@ body {
 }
 
 .suitcase-3.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 4px;
   top: -3px;
@@ -3941,7 +3954,7 @@ body {
 }
 
 .browser.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 7px;
   width: 15px;
@@ -3950,7 +3963,7 @@ body {
 }
 
 .browser.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 1px;
   top: 1px;
@@ -3958,7 +3971,7 @@ body {
   height: 11px;
   border-radius: 85% 15%;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
   border: solid 1px currentColor;
 }
 
@@ -3974,7 +3987,7 @@ body {
 }
 
 .browser-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 7px;
   width: 15px;
@@ -3984,7 +3997,7 @@ body {
 }
 
 .browser-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 1px;
   top: 1px;
@@ -3992,7 +4005,7 @@ body {
   height: 11px;
   border-radius: 85% 15%;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
   color: white;
   border: solid 1px currentColor;
 }
@@ -4010,7 +4023,7 @@ body {
 }
 
 .tv.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 4px;
   bottom: -4px;
@@ -4020,7 +4033,7 @@ body {
 }
 
 .tv.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 7px;
   bottom: -4px;
@@ -4041,7 +4054,7 @@ body {
 }
 
 .tv-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 4px;
   bottom: -4px;
@@ -4051,7 +4064,7 @@ body {
 }
 
 .tv-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 7px;
   bottom: -4px;
@@ -4073,7 +4086,7 @@ body {
 }
 
 .laptop.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: -4px;
   bottom: -5px;
@@ -4095,7 +4108,7 @@ body {
 }
 
 .laptop-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: -4px;
   bottom: -5px;
@@ -4119,7 +4132,7 @@ body {
 }
 
 .mobile.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 1px;
   left: 5px;
@@ -4130,7 +4143,7 @@ body {
 }
 
 .mobile.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 5px;
   top: 1px;
@@ -4151,7 +4164,7 @@ body {
 }
 
 .mobile-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -3px;
   left: 5px;
@@ -4163,7 +4176,7 @@ body {
 }
 
 .moon-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 8px;
   top: 3px;
@@ -4189,7 +4202,7 @@ body {
 }
 
 .tablet.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0px;
   left: 6px;
@@ -4199,7 +4212,7 @@ body {
 }
 
 .tablet.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 1px;
   left: 0;
@@ -4221,7 +4234,7 @@ body {
 }
 
 .tablet-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -2px;
   left: 6px;
@@ -4232,7 +4245,7 @@ body {
 }
 
 .tablet-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 1px;
   left: 0;
@@ -4256,7 +4269,7 @@ body {
 }
 
 .picture.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 2px;
   top: 9px;
@@ -4265,11 +4278,11 @@ body {
   border-top: solid 1px currentColor;
   border-right: solid 1px currentColor;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .picture.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 2px;
   top: 2px;
@@ -4291,7 +4304,7 @@ body {
 }
 
 .picture-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 2px;
   top: 9px;
@@ -4301,11 +4314,11 @@ body {
   border-top: solid 1px currentColor;
   border-right: solid 1px currentColor;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .picture-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 2px;
   top: 2px;
@@ -4329,7 +4342,7 @@ body {
 }
 
 .watch.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 2px;
   top: 5px;
@@ -4340,7 +4353,7 @@ body {
 }
 
 .watch.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: -4px;
   top: 3px;
@@ -4363,7 +4376,7 @@ body {
 }
 
 .watch-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 2px;
   top: 5px;
@@ -4375,7 +4388,7 @@ body {
 }
 
 .watch-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: -5px;
   top: 2px;
@@ -4399,7 +4412,7 @@ body {
 }
 
 .target.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 7px;
   top: -1px;
@@ -4410,7 +4423,7 @@ body {
 }
 
 .target.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: -1px;
   top: 7px;
@@ -4432,7 +4445,7 @@ body {
 }
 
 .target-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 7px;
   top: -1px;
@@ -4444,7 +4457,7 @@ body {
 }
 
 .target-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: -1px;
   top: 7px;
@@ -4468,7 +4481,7 @@ body {
 }
 
 .navigate.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 9px;
@@ -4482,7 +4495,7 @@ body {
 }
 
 .navigate.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: -17px;
@@ -4495,7 +4508,7 @@ body {
 }
 
 .navigate.icon i:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 6px;
@@ -4508,7 +4521,7 @@ body {
 }
 
 .navigate.icon i:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: -14px;
@@ -4537,11 +4550,11 @@ body {
   width: 14px;
   height: 18px;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .navigate-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 9px;
@@ -4555,7 +4568,7 @@ body {
 }
 
 .navigate-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: -17px;
@@ -4575,30 +4588,30 @@ body {
   width: 14px;
   height: 18px;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .float.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 7px;
   left: -1px;
   width: 17px;
   height: 1px;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
   background-color: currentColor;
 }
 
 .float.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 7px;
   left: -1px;
   width: 17px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
   background-color: currentColor;
 }
 
@@ -4626,27 +4639,27 @@ body {
 }
 
 .float-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 3px;
   left: -5px;
   width: 17px;
   height: 1px;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
   color: white;
   background-color: currentColor;
 }
 
 .float-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 3px;
   left: -5px;
   width: 17px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
   color: white;
   background-color: currentColor;
 }
@@ -4663,7 +4676,7 @@ body {
 }
 
 .more.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   top: -1px;
   left: 6px;
@@ -4674,7 +4687,7 @@ body {
 }
 
 .more.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: -1px;
   left: -8px;
@@ -4696,7 +4709,7 @@ body {
 }
 
 .more-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   top: -1px;
   left: 6px;
@@ -4708,7 +4721,7 @@ body {
 }
 
 .more-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: -1px;
   left: -8px;
@@ -4732,7 +4745,7 @@ body {
 }
 
 .more-vertical.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: -1px;
   top: 6px;
@@ -4743,7 +4756,7 @@ body {
 }
 
 .more-vertical.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: -1px;
   top: -8px;
@@ -4765,7 +4778,7 @@ body {
 }
 
 .more-vertical-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: -1px;
   top: 6px;
@@ -4777,7 +4790,7 @@ body {
 }
 
 .more-vertical-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: -1px;
   top: -8px;
@@ -4801,7 +4814,7 @@ body {
 }
 
 .smile.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   right: 3px;
   top: 3px;
@@ -4812,7 +4825,7 @@ body {
 }
 
 .smile.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: 3px;
@@ -4847,7 +4860,7 @@ body {
 }
 
 .smile-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   right: 4px;
   top: 4px;
@@ -4859,7 +4872,7 @@ body {
 }
 
 .smile-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 4px;
   top: 4px;
@@ -4897,7 +4910,7 @@ body {
 }
 
 .wink.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   right: 3px;
   top: 3px;
@@ -4908,7 +4921,7 @@ body {
 }
 
 .wink.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: 3px;
@@ -4920,7 +4933,7 @@ body {
   border-bottom: solid 1px currentColor;
   border-left: solid 1px currentColor;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .wink.icon i {
@@ -4948,7 +4961,7 @@ body {
 }
 
 .wink-tougue.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   right: 3px;
   top: 3px;
@@ -4959,7 +4972,7 @@ body {
 }
 
 .wink-tougue.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: 3px;
@@ -4971,11 +4984,11 @@ body {
   border-bottom: solid 1px currentColor;
   border-left: solid 1px currentColor;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .wink-tougue.icon i:before {
-  content: '';
+  content: "";
   position: absolute;
   top: -1px;
   right: 0px;
@@ -4987,7 +5000,7 @@ body {
   border-bottom: solid 1px currentColor;
   border-left: solid 1px currentColor;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .wink-tougue.icon i {
@@ -4998,7 +5011,7 @@ body {
   height: 1px;
   background-color: currentColor;
   -webkit-transform: rotate(-3deg);
-          transform: rotate(-3deg);
+  transform: rotate(-3deg);
 }
 
 .wink-tougue.icon {
@@ -5013,7 +5026,7 @@ body {
 }
 
 .tougue.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   right: 3px;
   top: 3px;
@@ -5024,7 +5037,7 @@ body {
 }
 
 .tougue.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: 3px;
@@ -5035,7 +5048,7 @@ body {
 }
 
 .tougue.icon i:before {
-  content: '';
+  content: "";
   position: absolute;
   top: -1px;
   right: 0px;
@@ -5047,7 +5060,7 @@ body {
   border-bottom: solid 1px currentColor;
   border-left: solid 1px currentColor;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .tougue.icon i {
@@ -5058,7 +5071,7 @@ body {
   height: 1px;
   background-color: currentColor;
   -webkit-transform: rotate(-3deg);
-          transform: rotate(-3deg);
+  transform: rotate(-3deg);
 }
 
 .tougue.icon {
@@ -5073,7 +5086,7 @@ body {
 }
 
 .tougue-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   right: 4px;
   top: 4px;
@@ -5085,7 +5098,7 @@ body {
 }
 
 .tougue-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 4px;
   top: 4px;
@@ -5097,7 +5110,7 @@ body {
 }
 
 .tougue-solid.icon i:before {
-  content: '';
+  content: "";
   position: absolute;
   top: -1px;
   right: 0px;
@@ -5110,7 +5123,7 @@ body {
   border-bottom: solid 1px currentColor;
   border-left: solid 1px currentColor;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .tougue-solid.icon i {
@@ -5122,7 +5135,7 @@ body {
   color: white;
   background-color: currentColor;
   -webkit-transform: rotate(-3deg);
-          transform: rotate(-3deg);
+  transform: rotate(-3deg);
 }
 
 .tougue-solid.icon {
@@ -5138,7 +5151,7 @@ body {
 }
 
 .relieved.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   right: 3px;
   top: 3px;
@@ -5150,11 +5163,11 @@ body {
   border-bottom: solid 1px currentColor;
   border-right: solid 1px transparent;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .relieved.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: 3px;
@@ -5166,7 +5179,7 @@ body {
   border-bottom: solid 1px currentColor;
   border-right: solid 1px transparent;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .relieved.icon i {
@@ -5194,7 +5207,7 @@ body {
 }
 
 .relieved-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   right: 3px;
   top: 3px;
@@ -5207,11 +5220,11 @@ body {
   border-bottom: solid 1px currentColor;
   border-right: solid 1px transparent;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .relieved-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: 3px;
@@ -5224,7 +5237,7 @@ body {
   border-bottom: solid 1px currentColor;
   border-right: solid 1px transparent;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .relieved-solid.icon i {
@@ -5254,7 +5267,7 @@ body {
 }
 
 .laugh.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   right: 3px;
   top: 3px;
@@ -5265,7 +5278,7 @@ body {
 }
 
 .laugh.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: 3px;
@@ -5297,7 +5310,7 @@ body {
 }
 
 .laugh-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   right: 4px;
   top: 4px;
@@ -5309,7 +5322,7 @@ body {
 }
 
 .laugh-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 4px;
   top: 4px;
@@ -5344,7 +5357,7 @@ body {
 }
 
 .wink-laugh.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   right: 3px;
   top: 3px;
@@ -5355,7 +5368,7 @@ body {
 }
 
 .wink-laugh.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: 3px;
@@ -5367,7 +5380,7 @@ body {
   border-bottom: solid 1px currentColor;
   border-left: solid 1px currentColor;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .wink-laugh.icon i {
@@ -5392,7 +5405,7 @@ body {
 }
 
 .grin.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   right: 3px;
   top: 3px;
@@ -5403,7 +5416,7 @@ body {
 }
 
 .grin.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: 3px;
@@ -5414,7 +5427,7 @@ body {
 }
 
 .grin.icon i:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: 0px;
@@ -5446,7 +5459,7 @@ body {
 }
 
 .grin-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   right: 4px;
   top: 4px;
@@ -5458,7 +5471,7 @@ body {
 }
 
 .grin-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 4px;
   top: 4px;
@@ -5470,7 +5483,7 @@ body {
 }
 
 .grin-solid.icon i:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: 0px;
@@ -5505,7 +5518,7 @@ body {
 }
 
 .grin-wink.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   right: 3px;
   top: 3px;
@@ -5516,7 +5529,7 @@ body {
 }
 
 .grin-wink.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: 3px;
@@ -5528,11 +5541,11 @@ body {
   border-bottom: solid 1px currentColor;
   border-left: solid 1px currentColor;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .grin-wink.icon i:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: 0px;
@@ -5564,7 +5577,7 @@ body {
 }
 
 .smiley.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   right: 3px;
   top: 3px;
@@ -5575,7 +5588,7 @@ body {
 }
 
 .smiley.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: 3px;
@@ -5610,7 +5623,7 @@ body {
 }
 
 .smiley-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   right: 4px;
   top: 4px;
@@ -5622,7 +5635,7 @@ body {
 }
 
 .smiley-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 4px;
   top: 4px;
@@ -5660,7 +5673,7 @@ body {
 }
 
 .wink-smiley.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   right: 3px;
   top: 3px;
@@ -5671,7 +5684,7 @@ body {
 }
 
 .wink-smiley.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: 3px;
@@ -5683,7 +5696,7 @@ body {
   border-bottom: solid 1px currentColor;
   border-left: solid 1px currentColor;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .wink-smiley.icon i {
@@ -5711,7 +5724,7 @@ body {
 }
 
 .relieved-smiley.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   right: 3px;
   top: 3px;
@@ -5723,11 +5736,11 @@ body {
   border-bottom: solid 1px currentColor;
   border-right: solid 1px transparent;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .relieved-smiley.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: 3px;
@@ -5739,7 +5752,7 @@ body {
   border-bottom: solid 1px currentColor;
   border-right: solid 1px transparent;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .relieved-smiley.icon i {
@@ -5767,7 +5780,7 @@ body {
 }
 
 .relieved-smiley-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   right: 3px;
   top: 3px;
@@ -5780,11 +5793,11 @@ body {
   border-bottom: solid 1px currentColor;
   border-right: solid 1px transparent;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .relieved-smiley-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: 3px;
@@ -5797,7 +5810,7 @@ body {
   border-bottom: solid 1px currentColor;
   border-right: solid 1px transparent;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .relieved-smiley-solid.icon i {
@@ -5827,7 +5840,7 @@ body {
 }
 
 .sad.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   right: 3px;
   top: 3px;
@@ -5838,7 +5851,7 @@ body {
 }
 
 .sad.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: 3px;
@@ -5873,7 +5886,7 @@ body {
 }
 
 .sad-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   right: 4px;
   top: 4px;
@@ -5885,7 +5898,7 @@ body {
 }
 
 .sad-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 4px;
   top: 4px;
@@ -5923,7 +5936,7 @@ body {
 }
 
 .pensive.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   right: 3px;
   top: 3px;
@@ -5935,11 +5948,11 @@ body {
   border-bottom: solid 1px currentColor;
   border-right: solid 1px transparent;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .pensive.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: 3px;
@@ -5951,7 +5964,7 @@ body {
   border-bottom: solid 1px currentColor;
   border-right: solid 1px transparent;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .pensive.icon i {
@@ -5975,7 +5988,7 @@ body {
 }
 
 .pensive-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   right: 3px;
   top: 3px;
@@ -5988,11 +6001,11 @@ body {
   border-bottom: solid 1px currentColor;
   border-right: solid 1px transparent;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .pensive-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: 3px;
@@ -6005,7 +6018,7 @@ body {
   border-bottom: solid 1px currentColor;
   border-right: solid 1px transparent;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .pensive-solid.icon i {
@@ -6031,7 +6044,7 @@ body {
 }
 
 .unamused.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   right: 3px;
   top: 3px;
@@ -6043,11 +6056,11 @@ body {
   border-bottom: solid 1px currentColor;
   border-right: solid 1px transparent;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .unamused.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: 3px;
@@ -6059,7 +6072,7 @@ body {
   border-bottom: solid 1px currentColor;
   border-right: solid 1px transparent;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .unamused.icon i {
@@ -6087,7 +6100,7 @@ body {
 }
 
 .unamused-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   right: 3px;
   top: 3px;
@@ -6100,11 +6113,11 @@ body {
   border-bottom: solid 1px currentColor;
   border-right: solid 1px transparent;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .unamused-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: 3px;
@@ -6117,7 +6130,7 @@ body {
   border-bottom: solid 1px currentColor;
   border-right: solid 1px transparent;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .unamused-solid.icon i {
@@ -6147,7 +6160,7 @@ body {
 }
 
 .cloud.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0px;
   left: 4px;
@@ -6157,7 +6170,7 @@ body {
 }
 
 .cloud.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: -7px;
   left: 4px;
@@ -6165,7 +6178,7 @@ body {
   height: 12px;
   border-radius: 50%;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
   border-left: solid 1px transparent;
   border-right: solid 1px currentColor;
   border-top: solid 1px currentColor;
@@ -6186,7 +6199,7 @@ body {
 }
 
 .cloud-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 4px;
@@ -6197,7 +6210,7 @@ body {
 }
 
 .cloud-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: -7px;
   left: 4px;
@@ -6205,7 +6218,7 @@ body {
   height: 12px;
   border-radius: 50%;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
   background-color: currentColor;
   border-left: solid 1px transparent;
   border-right: solid 1px currentColor;
@@ -6228,7 +6241,7 @@ body {
 }
 
 .snow.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 5px;
   left: 5px;
@@ -6239,7 +6252,7 @@ body {
 }
 
 .snow.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: -7px;
   left: 4px;
@@ -6247,7 +6260,7 @@ body {
   height: 12px;
   border-radius: 50%;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
   border-left: solid 1px transparent;
   border-right: solid 1px currentColor;
   border-top: solid 1px currentColor;
@@ -6262,7 +6275,8 @@ body {
   height: 2px;
   border-radius: 1px;
   background-color: currentColor;
-  box-shadow: 3px -2px 0 0 currentColor, 3px 1px 0 0 currentColor, 0 3px 0 0 currentColor;
+  box-shadow: 3px -2px 0 0 currentColor, 3px 1px 0 0 currentColor,
+    0 3px 0 0 currentColor;
   z-index: 2;
 }
 
@@ -6280,7 +6294,7 @@ body {
 }
 
 .rain.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 5px;
   left: 5px;
@@ -6291,7 +6305,7 @@ body {
 }
 
 .rain.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: -7px;
   left: 4px;
@@ -6299,7 +6313,7 @@ body {
   height: 12px;
   border-radius: 50%;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
   border-left: solid 1px transparent;
   border-right: solid 1px currentColor;
   border-top: solid 1px currentColor;
@@ -6313,7 +6327,8 @@ body {
   width: 1px;
   height: 4px;
   background-color: currentColor;
-  box-shadow: 3px -3px 0 0 currentColor, 3px -8px 0 0 currentColor, 0 -5px 0 0 currentColor;
+  box-shadow: 3px -3px 0 0 currentColor, 3px -8px 0 0 currentColor,
+    0 -5px 0 0 currentColor;
   z-index: 2;
 }
 
@@ -6331,7 +6346,7 @@ body {
 }
 
 .cloud-raindrop.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 5px;
   left: 5px;
@@ -6342,7 +6357,7 @@ body {
 }
 
 .cloud-raindrop.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: -7px;
   left: 4px;
@@ -6350,7 +6365,7 @@ body {
   height: 12px;
   border-radius: 50%;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
   border-left: solid 1px transparent;
   border-right: solid 1px currentColor;
   border-top: solid 1px currentColor;
@@ -6364,7 +6379,7 @@ body {
   width: 4px;
   height: 4px;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
   border-radius: 0 2px 2px 2px;
   background-color: currentColor;
   box-shadow: -1px -6px 0 0 currentColor;
@@ -6385,7 +6400,7 @@ body {
 }
 
 .cloud-lightning.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 5px;
   left: 5px;
@@ -6396,7 +6411,7 @@ body {
 }
 
 .cloud-lightning.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: -7px;
   left: 4px;
@@ -6404,7 +6419,7 @@ body {
   height: 12px;
   border-radius: 50%;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
   border-left: solid 1px transparent;
   border-right: solid 1px currentColor;
   border-top: solid 1px currentColor;
@@ -6412,7 +6427,7 @@ body {
 }
 
 .cloud-lightning.icon i:after {
-  content: '';
+  content: "";
   position: absolute;
   top: -1px;
   left: 4px;
@@ -6423,7 +6438,7 @@ body {
 }
 
 .cloud-lightning.icon i:before {
-  content: '';
+  content: "";
   position: absolute;
   top: -6px;
   left: 2px;
@@ -6454,7 +6469,7 @@ body {
 }
 
 .cloud-download.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 5px;
   left: 5px;
@@ -6465,7 +6480,7 @@ body {
 }
 
 .cloud-download.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: -7px;
   left: 4px;
@@ -6473,7 +6488,7 @@ body {
   height: 12px;
   border-radius: 50%;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
   border-left: solid 1px transparent;
   border-right: solid 1px currentColor;
   border-top: solid 1px currentColor;
@@ -6481,7 +6496,7 @@ body {
 }
 
 .cloud-download.icon i:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: 6px;
@@ -6490,11 +6505,11 @@ body {
   border-top: solid 1px currentColor;
   border-right: solid 1px currentColor;
   -webkit-transform: rotate(135deg);
-          transform: rotate(135deg);
+  transform: rotate(135deg);
 }
 
 .cloud-download.icon i:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 4px;
   left: 1px;
@@ -6526,7 +6541,7 @@ body {
 }
 
 .cloud-download-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 4px;
@@ -6537,7 +6552,7 @@ body {
 }
 
 .cloud-download-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: -7px;
   left: 4px;
@@ -6545,7 +6560,7 @@ body {
   height: 12px;
   border-radius: 50%;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
   background-color: currentColor;
   border-left: solid 1px transparent;
   border-right: solid 1px currentColor;
@@ -6554,7 +6569,7 @@ body {
 }
 
 .cloud-download-solid.icon i:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: 6px;
@@ -6563,11 +6578,11 @@ body {
   border-top: solid 1px currentColor;
   border-right: solid 1px currentColor;
   -webkit-transform: rotate(135deg);
-          transform: rotate(135deg);
+  transform: rotate(135deg);
 }
 
 .cloud-download-solid.icon i:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 4px;
   left: 5px;
@@ -6599,7 +6614,7 @@ body {
 }
 
 .cloud-upload.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 5px;
   left: 5px;
@@ -6610,7 +6625,7 @@ body {
 }
 
 .cloud-upload.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: -7px;
   left: 4px;
@@ -6618,7 +6633,7 @@ body {
   height: 12px;
   border-radius: 50%;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
   border-left: solid 1px transparent;
   border-right: solid 1px currentColor;
   border-top: solid 1px currentColor;
@@ -6626,7 +6641,7 @@ body {
 }
 
 .cloud-upload.icon i:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: 4px;
@@ -6635,11 +6650,11 @@ body {
   border-top: solid 1px currentColor;
   border-right: solid 1px currentColor;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .cloud-upload.icon i:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 4px;
   left: 1px;
@@ -6671,7 +6686,7 @@ body {
 }
 
 .cloud-upload-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 4px;
@@ -6682,7 +6697,7 @@ body {
 }
 
 .cloud-upload-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   top: -7px;
   left: 4px;
@@ -6690,7 +6705,7 @@ body {
   height: 12px;
   border-radius: 50%;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
   background-color: currentColor;
   border-left: solid 1px transparent;
   border-right: solid 1px currentColor;
@@ -6699,7 +6714,7 @@ body {
 }
 
 .cloud-upload-solid.icon i:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: 4px;
@@ -6708,11 +6723,11 @@ body {
   border-top: solid 1px currentColor;
   border-right: solid 1px currentColor;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .cloud-upload-solid.icon i:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 4px;
   left: 5px;
@@ -6744,7 +6759,7 @@ body {
 }
 
 .moon.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 6px;
   top: 1px;
@@ -6752,7 +6767,7 @@ body {
   height: 10px;
   border-radius: 50%;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
   border-top: solid 1px transparent;
   border-bottom: solid 1px currentColor;
   border-left: solid 1px currentColor;
@@ -6774,7 +6789,7 @@ body {
 }
 
 .moon.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 6px;
   top: 1px;
@@ -6786,7 +6801,7 @@ body {
   border-left: solid 1px currentColor;
   border-right: solid 1px transparent;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .moon-solid.icon {
@@ -6809,7 +6824,10 @@ body {
   height: 6px;
   border-radius: 50%;
   border: 1px solid currentColor;
-  box-shadow: -8px 0 0 -3px currentColor,  8px 0 0 -3px currentColor,  0 -8px 0 -3px currentColor,  0 8px 0 -3px currentColor,  -6px -6px 0 -3px currentColor,  -6px 6px 0 -3px currentColor,  6px -6px 0 -3px currentColor,  6px 6px 0 -3px currentColor;
+  box-shadow: -8px 0 0 -3px currentColor, 8px 0 0 -3px currentColor,
+    0 -8px 0 -3px currentColor, 0 8px 0 -3px currentColor,
+    -6px -6px 0 -3px currentColor, -6px 6px 0 -3px currentColor,
+    6px -6px 0 -3px currentColor, 6px 6px 0 -3px currentColor;
 }
 
 .sun-solid.icon {
@@ -6822,7 +6840,10 @@ body {
   border-radius: 50%;
   border: 1px solid currentColor;
   background-color: currentColor;
-  box-shadow: -8px 0 0 -3px currentColor,  8px 0 0 -3px currentColor,  0 -8px 0 -3px currentColor,  0 8px 0 -3px currentColor,  -6px -6px 0 -3px currentColor,  -6px 6px 0 -3px currentColor,  6px -6px 0 -3px currentColor,  6px 6px 0 -3px currentColor;
+  box-shadow: -8px 0 0 -3px currentColor, 8px 0 0 -3px currentColor,
+    0 -8px 0 -3px currentColor, 0 8px 0 -3px currentColor,
+    -6px -6px 0 -3px currentColor, -6px 6px 0 -3px currentColor,
+    6px -6px 0 -3px currentColor, 6px 6px 0 -3px currentColor;
 }
 
 .sun-brightness.icon {
@@ -6836,11 +6857,14 @@ body {
   border-color: currentColor;
   border-style: solid;
   border-width: 1px 4px 1px 1px;
-  box-shadow: -8px 0 0 -3px currentColor,  8px 0 0 -3px currentColor,  0 -8px 0 -3px currentColor,  0 8px 0 -3px currentColor,  -6px -6px 0 -3px currentColor,  -6px 6px 0 -3px currentColor,  6px -6px 0 -3px currentColor,  6px 6px 0 -3px currentColor;
+  box-shadow: -8px 0 0 -3px currentColor, 8px 0 0 -3px currentColor,
+    0 -8px 0 -3px currentColor, 0 8px 0 -3px currentColor,
+    -6px -6px 0 -3px currentColor, -6px 6px 0 -3px currentColor,
+    6px -6px 0 -3px currentColor, 6px 6px 0 -3px currentColor;
 }
 
 .sun-raindrop.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 4px;
   top: 4px;
@@ -6849,11 +6873,11 @@ body {
   border-radius: 50% 0 50% 50%;
   border: solid 1px currentColor;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .sun-raindrop.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: 3px;
@@ -6861,7 +6885,7 @@ body {
   height: 8px;
   border-radius: 50% 0 50% 50%;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
   color: #fff;
   background-color: currentColor;
 }
@@ -6875,11 +6899,14 @@ body {
   height: 6px;
   border: 1px solid currentColor;
   border-radius: 50%;
-  box-shadow: -8px 0 0 -3px currentColor,  8px 0 0 -3px currentColor,  0 -8px 0 -3px currentColor,  0 8px 0 -3px currentColor,  -6px -6px 0 -3px currentColor,  -6px 6px 0 -3px currentColor,  6px -6px 0 -3px currentColor,  6px 6px 0 -3px currentColor;
+  box-shadow: -8px 0 0 -3px currentColor, 8px 0 0 -3px currentColor,
+    0 -8px 0 -3px currentColor, 0 8px 0 -3px currentColor,
+    -6px -6px 0 -3px currentColor, -6px 6px 0 -3px currentColor,
+    6px -6px 0 -3px currentColor, 6px 6px 0 -3px currentColor;
 }
 
 .sun-raindrop-solid.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 4px;
   top: 4px;
@@ -6889,11 +6916,11 @@ body {
   border: solid 1px currentColor;
   background-color: currentColor;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .sun-raindrop-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: 3px;
@@ -6901,7 +6928,7 @@ body {
   height: 8px;
   border-radius: 50% 0 50% 50%;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
   color: #fff;
   background-color: currentColor;
 }
@@ -6916,11 +6943,14 @@ body {
   border: 1px solid currentColor;
   background-color: currentColor;
   border-radius: 50%;
-  box-shadow: -8px 0 0 -3px currentColor,  8px 0 0 -3px currentColor,  0 -8px 0 -3px currentColor,  0 8px 0 -3px currentColor,  -6px -6px 0 -3px currentColor,  -6px 6px 0 -3px currentColor,  6px -6px 0 -3px currentColor,  6px 6px 0 -3px currentColor;
+  box-shadow: -8px 0 0 -3px currentColor, 8px 0 0 -3px currentColor,
+    0 -8px 0 -3px currentColor, 0 8px 0 -3px currentColor,
+    -6px -6px 0 -3px currentColor, -6px 6px 0 -3px currentColor,
+    6px -6px 0 -3px currentColor, 6px 6px 0 -3px currentColor;
 }
 
 .sun-horizon.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: -6px;
   top: 6px;
@@ -6939,11 +6969,13 @@ body {
   border-radius: 50%;
   border: 1px solid currentColor;
   border-bottom: solid 1px transparent;
-  box-shadow: -8px 0 0 -3px currentColor,  8px 0 0 -3px currentColor,  0 -8px 0 -3px currentColor,  -6px -6px 0 -3px currentColor,  6px -6px 0 -3px currentColor;
+  box-shadow: -8px 0 0 -3px currentColor, 8px 0 0 -3px currentColor,
+    0 -8px 0 -3px currentColor, -6px -6px 0 -3px currentColor,
+    6px -6px 0 -3px currentColor;
 }
 
 .sun-horizon-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: -6px;
   top: 5px;
@@ -6964,11 +6996,13 @@ body {
   background-color: currentColor;
   border: 1px solid currentColor;
   border-bottom: solid 1px transparent;
-  box-shadow: -8px 0 0 -3px currentColor,  8px 0 0 -3px currentColor,  0 -8px 0 -3px currentColor,  -6px -6px 0 -3px currentColor,  6px -6px 0 -3px currentColor;
+  box-shadow: -8px 0 0 -3px currentColor, 8px 0 0 -3px currentColor,
+    0 -8px 0 -3px currentColor, -6px -6px 0 -3px currentColor,
+    6px -6px 0 -3px currentColor;
 }
 
 .sunrise.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: -6px;
   top: 6px;
@@ -6978,7 +7012,7 @@ body {
 }
 
 .sunrise.icon i:before {
-  content: '';
+  content: "";
   position: absolute;
   left: -1px;
   top: -1px;
@@ -7008,11 +7042,13 @@ body {
   border-radius: 50%;
   border: 1px solid currentColor;
   border-bottom: solid 1px transparent;
-  box-shadow: -8px 0 0 -3px currentColor,  8px 0 0 -3px currentColor,  0 -8px 0 -3px currentColor,  -6px -6px 0 -3px currentColor,  6px -6px 0 -3px currentColor;
+  box-shadow: -8px 0 0 -3px currentColor, 8px 0 0 -3px currentColor,
+    0 -8px 0 -3px currentColor, -6px -6px 0 -3px currentColor,
+    6px -6px 0 -3px currentColor;
 }
 
 .sunrise-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: -6px;
   top: 5px;
@@ -7023,7 +7059,7 @@ body {
 }
 
 .sunrise-solid.icon i:before {
-  content: '';
+  content: "";
   position: absolute;
   left: -1px;
   top: -1px;
@@ -7055,11 +7091,13 @@ body {
   border: 1px solid currentColor;
   background-color: currentColor;
   border-bottom: solid 1px transparent;
-  box-shadow: -8px 0 0 -3px currentColor,  8px 0 0 -3px currentColor,  0 -8px 0 -3px currentColor,  -6px -6px 0 -3px currentColor,  6px -6px 0 -3px currentColor;
+  box-shadow: -8px 0 0 -3px currentColor, 8px 0 0 -3px currentColor,
+    0 -8px 0 -3px currentColor, -6px -6px 0 -3px currentColor,
+    6px -6px 0 -3px currentColor;
 }
 
 .sunset.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: -6px;
   top: 6px;
@@ -7069,7 +7107,7 @@ body {
 }
 
 .sunset.icon i:before {
-  content: '';
+  content: "";
   position: absolute;
   left: -1px;
   top: 2px;
@@ -7099,11 +7137,13 @@ body {
   border-radius: 50%;
   border: 1px solid currentColor;
   border-bottom: solid 1px transparent;
-  box-shadow: -8px 0 0 -3px currentColor,  8px 0 0 -3px currentColor,  0 -8px 0 -3px currentColor,  -6px -6px 0 -3px currentColor,  6px -6px 0 -3px currentColor;
+  box-shadow: -8px 0 0 -3px currentColor, 8px 0 0 -3px currentColor,
+    0 -8px 0 -3px currentColor, -6px -6px 0 -3px currentColor,
+    6px -6px 0 -3px currentColor;
 }
 
 .sunset-solid.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   left: -6px;
   top: 6px;
@@ -7114,7 +7154,7 @@ body {
 }
 
 .sunset-solid.icon i:before {
-  content: '';
+  content: "";
   position: absolute;
   left: -1px;
   top: 2px;
@@ -7146,7 +7186,9 @@ body {
   border: 1px solid currentColor;
   background-color: currentColor;
   border-bottom: solid 1px transparent;
-  box-shadow: -8px 0 0 -3px currentColor,  8px 0 0 -3px currentColor,  0 -8px 0 -3px currentColor,  -6px -6px 0 -3px currentColor,  6px -6px 0 -3px currentColor;
+  box-shadow: -8px 0 0 -3px currentColor, 8px 0 0 -3px currentColor,
+    0 -8px 0 -3px currentColor, -6px -6px 0 -3px currentColor,
+    6px -6px 0 -3px currentColor;
 }
 
 .raindrop.icon {
@@ -7159,7 +7201,7 @@ body {
   border: solid 1px currentColor;
   border-radius: 6px 6px 6px 0;
   -webkit-transform: rotate(135deg);
-          transform: rotate(135deg);
+  transform: rotate(135deg);
 }
 
 .raindrop-solid.icon {
@@ -7173,11 +7215,11 @@ body {
   border: solid 1px currentColor;
   border-radius: 6px 6px 6px 0;
   -webkit-transform: rotate(135deg);
-          transform: rotate(135deg);
+  transform: rotate(135deg);
 }
 
 .no-raindrop.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 5px;
   left: -5px;
@@ -7196,7 +7238,7 @@ body {
   border: solid 1px currentColor;
   border-radius: 6px 6px 6px 0;
   -webkit-transform: rotate(135deg);
-          transform: rotate(135deg);
+  transform: rotate(135deg);
 }
 
 .raindrop-percent.icon {
@@ -7214,7 +7256,7 @@ body {
   border-bottom-right-radius: 6px;
   border-bottom-left-radius: 0px;
   -webkit-transform: rotate(135deg);
-          transform: rotate(135deg);
+  transform: rotate(135deg);
 }
 .raindrop-percent.icon:after {
   top: 1px;
@@ -7312,7 +7354,7 @@ body {
   top: -7px;
   right: -4px;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 .windy.icon:after {
   width: 10px;
@@ -7337,7 +7379,7 @@ body {
   top: -5px;
   right: -3px;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 .windy.icon i:after {
   width: 4px;
@@ -7350,7 +7392,7 @@ body {
   top: 4px;
   left: 7px;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .lightning.icon {
@@ -7375,9 +7417,9 @@ body {
   background-color: currentColor;
   top: -13px;
   -webkit-transform-origin: left bottom;
-          transform-origin: left bottom;
+  transform-origin: left bottom;
   -webkit-transform: rotate(31deg);
-          transform: rotate(31deg);
+  transform: rotate(31deg);
   box-shadow: 6px 4px 0 0 currentColor;
 }
 
@@ -7630,7 +7672,11 @@ body {
   width: 2px;
   height: 1px;
   border: 1px solid transparent;
-  box-shadow: 0   9px 0 -1px currentColor,  -4px 9px 0 -1px currentColor,  4px 9px 0 -1px currentColor, 0   6px 0 -1px currentColor,  -4px 6px 0 -1px currentColor,  4px 6px 0 -1px currentColor, 0   3px 0 -1px currentColor,  -4px 3px 0 -1px currentColor,  4px 3px 0 -1px currentColor;
+  box-shadow: 0 9px 0 -1px currentColor, -4px 9px 0 -1px currentColor,
+    4px 9px 0 -1px currentColor, 0 6px 0 -1px currentColor,
+    -4px 6px 0 -1px currentColor, 4px 6px 0 -1px currentColor,
+    0 3px 0 -1px currentColor, -4px 3px 0 -1px currentColor,
+    4px 3px 0 -1px currentColor;
 }
 .calendar3.icon.filled {
   background-color: currentColor;
@@ -7641,7 +7687,9 @@ body {
   border-right: solid 2px #333333;
 }
 .calendar3.icon.filled:after {
-  box-shadow: 0   9px 0 -1px white,  -4px 9px 0 -1px white,  4px 9px 0 -1px white, 0   6px 0 -1px white,  -4px 6px 0 -1px white,  4px 6px 0 -1px white, 0   3px 0 -1px white,  -4px 3px 0 -1px white,  4px 3px 0 -1px white;
+  box-shadow: 0 9px 0 -1px white, -4px 9px 0 -1px white, 4px 9px 0 -1px white,
+    0 6px 0 -1px white, -4px 6px 0 -1px white, 4px 6px 0 -1px white,
+    0 3px 0 -1px white, -4px 3px 0 -1px white, 4px 3px 0 -1px white;
 }
 
 .calendar2.icon {
@@ -7659,7 +7707,11 @@ body {
   height: 5px;
   border-left: solid 1px currentColor;
   border-right: solid 1px currentColor;
-  box-shadow: 0   12px 0 -2px currentColor,  -4px 12px 0 -2px currentColor,  4px 12px 0 -2px currentColor, 0   9px 0 -2px currentColor,  -4px 9px 0 -2px currentColor,  4px 9px 0 -2px currentColor, 0   6px 0 -2px currentColor,  -4px 6px 0 -2px currentColor,  4px 6px 0 -2px currentColor;
+  box-shadow: 0 12px 0 -2px currentColor, -4px 12px 0 -2px currentColor,
+    4px 12px 0 -2px currentColor, 0 9px 0 -2px currentColor,
+    -4px 9px 0 -2px currentColor, 4px 9px 0 -2px currentColor,
+    0 6px 0 -2px currentColor, -4px 6px 0 -2px currentColor,
+    4px 6px 0 -2px currentColor;
 }
 .calendar2.icon:after {
   left: -1px;
@@ -7672,7 +7724,9 @@ body {
   background-color: currentColor;
 }
 .calendar2.icon.filled:before {
-  box-shadow: 0   12px 0 -2px white,  -4px 12px 0 -2px white,  4px 12px 0 -2px white, 0   9px 0 -2px white,  -4px 9px 0 -2px white,  4px 9px 0 -2px white, 0   6px 0 -2px white,  -4px 6px 0 -2px white,  4px 6px 0 -2px white;
+  box-shadow: 0 12px 0 -2px white, -4px 12px 0 -2px white, 4px 12px 0 -2px white,
+    0 9px 0 -2px white, -4px 9px 0 -2px white, 4px 9px 0 -2px white,
+    0 6px 0 -2px white, -4px 6px 0 -2px white, 4px 6px 0 -2px white;
 }
 .calendar2.icon.filled:after {
   background-color: white;
@@ -7857,9 +7911,9 @@ body {
   background-color: currentColor;
   left: 4px;
   -webkit-transform-origin: right top;
-          transform-origin: right top;
+  transform-origin: right top;
   -webkit-transform: rotate(-22.4deg);
-          transform: rotate(-22.4deg);
+  transform: rotate(-22.4deg);
 }
 
 .shift.icon {
@@ -7879,7 +7933,7 @@ body {
   border-left: solid 1px currentColor;
   border-top: solid 1px currentColor;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 .shift.icon:after {
   width: 4px;
@@ -7930,9 +7984,9 @@ body {
   height: 7px;
   border-right: solid 1px currentColor;
   -webkit-transform-origin: bottom center;
-          transform-origin: bottom center;
+  transform-origin: bottom center;
   -webkit-transform: rotate(33deg);
-          transform: rotate(33deg);
+  transform: rotate(33deg);
 }
 .hard-drive.icon i:after {
   top: -1px;
@@ -7941,9 +7995,9 @@ body {
   height: 7px;
   border-right: solid 1px currentColor;
   -webkit-transform-origin: bottom right;
-          transform-origin: bottom right;
+  transform-origin: bottom right;
   -webkit-transform: rotate(-33deg);
-          transform: rotate(-33deg);
+  transform: rotate(-33deg);
 }
 .hard-drive.icon.filled {
   background-color: currentColor;
@@ -7968,7 +8022,7 @@ body {
   border-right: solid 1px currentColor;
   border-bottom: solid 1px currentColor;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 .terminal.icon:after {
   width: 4px;
@@ -8094,7 +8148,7 @@ body {
   border: solid 1px currentColor;
   border-radius: 50% 50% 0 50%;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 .infinite.icon:after {
   width: 6px;
@@ -8102,7 +8156,7 @@ body {
   border: solid 1px currentColor;
   border-radius: 50% 50% 0 50%;
   -webkit-transform: rotate(135deg);
-          transform: rotate(135deg);
+  transform: rotate(135deg);
   right: 0px;
 }
 
@@ -8129,9 +8183,9 @@ body {
   bottom: -1px;
   left: -1px;
   -webkit-transform-origin: bottom right;
-          transform-origin: bottom right;
+  transform-origin: bottom right;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .asterisk.icon {
@@ -8146,14 +8200,14 @@ body {
   height: 11px;
   background-color: currentColor;
   -webkit-transform: rotate(60deg);
-          transform: rotate(60deg);
+  transform: rotate(60deg);
 }
 .asterisk.icon:after {
   width: 1px;
   height: 11px;
   background-color: currentColor;
   -webkit-transform: rotate(-60deg);
-          transform: rotate(-60deg);
+  transform: rotate(-60deg);
 }
 
 .pie-chart.icon {
@@ -8407,7 +8461,7 @@ body {
   border-radius: 1px;
   border: solid 1px currentColor;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 .ruler.icon:before {
   top: -1px;
@@ -8415,7 +8469,8 @@ body {
   width: 1px;
   height: 3px;
   background-color: currentColor;
-  box-shadow: 4px 0 0 0 currentColor, 8px 0 0 0 currentColor, 12px 0 0 0 currentColor, 16px 0 0 0 currentColor;
+  box-shadow: 4px 0 0 0 currentColor, 8px 0 0 0 currentColor,
+    12px 0 0 0 currentColor, 16px 0 0 0 currentColor;
 }
 .ruler.icon:after {
   top: -1px;
@@ -8423,7 +8478,8 @@ body {
   width: 1px;
   height: 4px;
   background-color: currentColor;
-  box-shadow: 4px 0 0 0 currentColor, 8px 0 0 0 currentColor, 12px 0 0 0 currentColor;
+  box-shadow: 4px 0 0 0 currentColor, 8px 0 0 0 currentColor,
+    12px 0 0 0 currentColor;
 }
 .ruler.icon.filled {
   background-color: currentColor;
@@ -8431,7 +8487,8 @@ body {
 .ruler.icon.filled:before {
   height: 2px;
   background-color: white;
-  box-shadow: 4px 0 0 0 white, 8px 0 0 0 white, 12px 0 0 0 white, 16px 0 0 0 white;
+  box-shadow: 4px 0 0 0 white, 8px 0 0 0 white, 12px 0 0 0 white,
+    16px 0 0 0 white;
 }
 .ruler.icon.filled:after {
   height: 3px;
@@ -8447,7 +8504,8 @@ body {
   border-radius: 0 0 2px 2px;
   border: solid 1px currentColor;
 }
-.piano.icon:before, .piano.icon:after {
+.piano.icon:before,
+.piano.icon:after {
   width: 3px;
   height: 15px;
   border-radius: 0 0 2px 2px;
@@ -8501,7 +8559,10 @@ body {
   width: 2px;
   height: 2px;
   background-color: currentColor;
-  box-shadow: 0 3px 0 0 currentColor, 0 6px 0 0 currentColor, 0 9px 0 0 currentColor, 0 12px 0 0 currentColor, 17px 0px 0 0 currentColor, 17px 3px 0 0 currentColor, 17px 6px 0 0 currentColor, 17px 9px 0 0 currentColor, 17px 12px 0 0 currentColor;
+  box-shadow: 0 3px 0 0 currentColor, 0 6px 0 0 currentColor,
+    0 9px 0 0 currentColor, 0 12px 0 0 currentColor, 17px 0px 0 0 currentColor,
+    17px 3px 0 0 currentColor, 17px 6px 0 0 currentColor,
+    17px 9px 0 0 currentColor, 17px 12px 0 0 currentColor;
 }
 .film.icon:after {
   left: 3px;
@@ -8526,7 +8587,7 @@ body {
   border: solid 1px currentColor;
   border-radius: 2px;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 .eyedropper.icon:before {
   left: -1px;
@@ -8553,7 +8614,8 @@ body {
   border-right: solid 1px currentColor;
   border-bottom: solid 1px currentColor;
 }
-.shop2.icon:before, .shop2.icon:after {
+.shop2.icon:before,
+.shop2.icon:after {
   top: -7px;
   width: 1px;
   height: 4px;
@@ -8573,7 +8635,8 @@ body {
   width: 3px;
   height: 3px;
 }
-.shop2.icon i:before, .shop2.icon i:after {
+.shop2.icon i:before,
+.shop2.icon i:after {
   top: -10px;
   width: 1px;
   height: 6px;
@@ -8587,7 +8650,8 @@ body {
   right: -2px;
   border-radius: 0 3px 2px 2px;
 }
-.shop2.icon.filled:before, .shop2.icon.filled:after,
+.shop2.icon.filled:before,
+.shop2.icon.filled:after,
 .shop2.icon.filled i:before,
 .shop2.icon.filled i:after {
   background-color: currentColor;
@@ -8602,7 +8666,8 @@ body {
   border-right: solid 1px currentColor;
   border-bottom: solid 1px currentColor;
 }
-.shop.icon:before, .shop.icon:after {
+.shop.icon:before,
+.shop.icon:after {
   top: -8px;
   width: 1px;
   height: 5px;
@@ -8622,7 +8687,8 @@ body {
   width: 3px;
   height: 3px;
 }
-.shop.icon i:before, .shop.icon i:after {
+.shop.icon i:before,
+.shop.icon i:after {
   top: -9px;
   width: 1px;
   height: 5px;
@@ -8653,7 +8719,8 @@ body {
   background-color: currentColor;
   left: -2px;
   border-radius: 0 0 2px 2px;
-  box-shadow: 4px 0 0 0 currentColor, 8px 0 0 0 currentColor, 12px 0 0 0 currentColor;
+  box-shadow: 4px 0 0 0 currentColor, 8px 0 0 0 currentColor,
+    12px 0 0 0 currentColor;
 }
 .shop-filled.icon:after {
   left: 3px;
@@ -8671,9 +8738,10 @@ body {
   border-left: solid 1px currentColor;
   border-right: solid 1px currentColor;
   -webkit-transform: skewY(-11deg);
-          transform: skewY(-11deg);
+  transform: skewY(-11deg);
 }
-.music-note.icon:before, .music-note.icon:after {
+.music-note.icon:before,
+.music-note.icon:after {
   width: 5px;
   height: 4px;
   background-color: currentColor;
@@ -8696,7 +8764,8 @@ body {
   border: solid 1px currentColor;
   border-radius: 2px;
 }
-.share.icon:before, .share.icon:after {
+.share.icon:before,
+.share.icon:after {
   left: 9px;
   width: 2px;
   height: 2px;
@@ -8715,9 +8784,9 @@ body {
   height: 1px;
   background-color: currentColor;
   -webkit-transform-origin: left bottom;
-          transform-origin: left bottom;
+  transform-origin: left bottom;
   -webkit-transform: rotate(-30deg);
-          transform: rotate(-30deg);
+  transform: rotate(-30deg);
 }
 .share.icon i:after {
   top: 1px;
@@ -8726,9 +8795,9 @@ body {
   height: 1px;
   background-color: currentColor;
   -webkit-transform-origin: left top;
-          transform-origin: left top;
+  transform-origin: left top;
   -webkit-transform: rotate(30deg);
-          transform: rotate(30deg);
+  transform: rotate(30deg);
 }
 
 .share-filled.icon {
@@ -8747,9 +8816,9 @@ body {
   height: 1px;
   background-color: currentColor;
   -webkit-transform-origin: left bottom;
-          transform-origin: left bottom;
+  transform-origin: left bottom;
   -webkit-transform: rotate(-30deg);
-          transform: rotate(-30deg);
+  transform: rotate(-30deg);
 }
 .share-filled.icon:after {
   top: 2px;
@@ -8758,9 +8827,9 @@ body {
   height: 1px;
   background-color: currentColor;
   -webkit-transform-origin: left top;
-          transform-origin: left top;
+  transform-origin: left top;
   -webkit-transform: rotate(30deg);
-          transform: rotate(30deg);
+  transform: rotate(30deg);
 }
 
 .house.icon {
@@ -8787,7 +8856,7 @@ body {
   border-top: solid 1px currentColor;
   border-left: solid 1px currentColor;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 .house.icon.filled:before {
   background-color: currentColor;
@@ -8830,9 +8899,9 @@ body {
   bottom: 2px;
   left: -1px;
   -webkit-transform-origin: left bottom;
-          transform-origin: left bottom;
+  transform-origin: left bottom;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 .insert2.icon.filled i {
   width: 3px;
@@ -8849,9 +8918,9 @@ body {
   bottom: 3px;
   left: 0;
   -webkit-transform-origin: left bottom;
-          transform-origin: left bottom;
+  transform-origin: left bottom;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
   border: none;
 }
 
@@ -8910,7 +8979,8 @@ body {
   height: 13px;
   background-color: currentColor;
 }
-.back-play.icon:before, .back-play.icon:after {
+.back-play.icon:before,
+.back-play.icon:after {
   left: -12px;
   width: 12px;
   height: 1px;
@@ -8919,16 +8989,16 @@ body {
 .back-play.icon:before {
   top: 0;
   -webkit-transform-origin: right top;
-          transform-origin: right top;
+  transform-origin: right top;
   -webkit-transform: rotate(-30deg);
-          transform: rotate(-30deg);
+  transform: rotate(-30deg);
 }
 .back-play.icon:after {
   bottom: 0;
   -webkit-transform-origin: right bottom;
-          transform-origin: right bottom;
+  transform-origin: right bottom;
   -webkit-transform: rotate(30deg);
-          transform: rotate(30deg);
+  transform: rotate(30deg);
 }
 
 .back-play-filled.icon {
@@ -8948,7 +9018,8 @@ body {
   height: 13px;
   background-color: currentColor;
 }
-.play.icon:before, .play.icon:after {
+.play.icon:before,
+.play.icon:after {
   left: 1px;
   width: 12px;
   height: 1px;
@@ -8957,16 +9028,16 @@ body {
 .play.icon:before {
   top: 0;
   -webkit-transform-origin: left top;
-          transform-origin: left top;
+  transform-origin: left top;
   -webkit-transform: rotate(30deg);
-          transform: rotate(30deg);
+  transform: rotate(30deg);
 }
 .play.icon:after {
   bottom: 0;
   -webkit-transform-origin: left bottom;
-          transform-origin: left bottom;
+  transform-origin: left bottom;
   -webkit-transform: rotate(-30deg);
-          transform: rotate(-30deg);
+  transform: rotate(-30deg);
 }
 
 .play-filled.icon {
@@ -8985,7 +9056,8 @@ body {
   width: 13px;
   height: 13px;
 }
-.pause.icon:before, .pause.icon:after {
+.pause.icon:before,
+.pause.icon:after {
   width: 3px;
   height: 11px;
   border: solid 1px currentColor;
@@ -8994,7 +9066,8 @@ body {
 .pause.icon:after {
   right: 0;
 }
-.pause.icon.filled:before, .pause.icon.filled:after {
+.pause.icon.filled:before,
+.pause.icon.filled:after {
   background-color: currentColor;
 }
 
@@ -9014,9 +9087,10 @@ body {
   margin-left: 4px;
   margin-top: 10px;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
-.backward.icon:before, .backward.icon:after {
+.backward.icon:before,
+.backward.icon:after {
   width: 9px;
   height: 9px;
   border-top: solid 1px currentColor;
@@ -9034,7 +9108,8 @@ body {
   width: 14px;
   height: 14px;
 }
-.backward-filled.icon:before, .backward-filled.icon:after {
+.backward-filled.icon:before,
+.backward-filled.icon:after {
   width: 0;
   height: 0;
   border-right: solid 7px currentColor;
@@ -9049,9 +9124,10 @@ body {
   margin-left: -1px;
   margin-top: 10px;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
-.forward.icon:before, .forward.icon:after {
+.forward.icon:before,
+.forward.icon:after {
   width: 9px;
   height: 9px;
   border-bottom: solid 1px currentColor;
@@ -9069,7 +9145,8 @@ body {
   width: 14px;
   height: 14px;
 }
-.forward-filled.icon:before, .forward-filled.icon:after {
+.forward-filled.icon:before,
+.forward-filled.icon:after {
   width: 0;
   height: 0;
   border-left: solid 7px currentColor;
@@ -9091,9 +9168,9 @@ body {
   border-right: solid 1px currentColor;
   border-radius: 0 1px 0 0;
   -webkit-transform-origin: left top;
-          transform-origin: left top;
+  transform-origin: left top;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 .next.icon:after {
   left: 9px;
@@ -9134,9 +9211,9 @@ body {
   border-left: solid 1px currentColor;
   border-radius: 1px 0 0 0;
   -webkit-transform-origin: right top;
-          transform-origin: right top;
+  transform-origin: right top;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 .previous.icon:after {
   left: 0;
@@ -9182,9 +9259,9 @@ body {
   border-left: solid 1px currentColor;
   border-radius: 1px 0 0 0;
   -webkit-transform-origin: right top;
-          transform-origin: right top;
+  transform-origin: right top;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 .first.icon:after {
   left: 4px;
@@ -9194,9 +9271,9 @@ body {
   border-left: solid 1px currentColor;
   border-radius: 1px 0 0 0;
   -webkit-transform-origin: right top;
-          transform-origin: right top;
+  transform-origin: right top;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .first-filled.icon {
@@ -9206,7 +9283,8 @@ body {
   height: 14px;
   background-color: currentColor;
 }
-.first-filled.icon:before, .first-filled.icon:after {
+.first-filled.icon:before,
+.first-filled.icon:after {
   left: 3px;
   width: 0;
   height: 0;
@@ -9233,9 +9311,9 @@ body {
   border-right: solid 1px currentColor;
   border-radius: 0 1px 0 0;
   -webkit-transform-origin: left top;
-          transform-origin: left top;
+  transform-origin: left top;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 .last.icon:after {
   left: -13px;
@@ -9245,9 +9323,9 @@ body {
   border-right: solid 1px currentColor;
   border-radius: 0 1px 0 0;
   -webkit-transform-origin: left top;
-          transform-origin: left top;
+  transform-origin: left top;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .last-filled.icon {
@@ -9257,7 +9335,8 @@ body {
   height: 14px;
   background-color: currentColor;
 }
-.last-filled.icon:before, .last-filled.icon:after {
+.last-filled.icon:before,
+.last-filled.icon:after {
   left: -7px;
   width: 0;
   height: 0;
@@ -9296,9 +9375,9 @@ body {
   border-top: solid 1px currentColor;
   border-left: solid 1px currentColor;
   -webkit-transform-origin: right top;
-          transform-origin: right top;
+  transform-origin: right top;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 .previous-next.icon:after {
   right: -10px;
@@ -9307,9 +9386,9 @@ body {
   border-top: solid 1px currentColor;
   border-right: solid 1px currentColor;
   -webkit-transform-origin: left top;
-          transform-origin: left top;
+  transform-origin: left top;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .previous-next-filled.icon {
@@ -9357,7 +9436,8 @@ body {
   background-color: currentColor;
   left: -2px;
   top: 3px;
-  box-shadow: 6px 0 0 0 currentColor, 6px -10px 0 0 currentColor, 12px 0 0 0 currentColor;
+  box-shadow: 6px 0 0 0 currentColor, 6px -10px 0 0 currentColor,
+    12px 0 0 0 currentColor;
 }
 
 .layout-right-column.icon {
@@ -9486,7 +9566,8 @@ body {
   height: 13px;
   background-color: currentColor;
 }
-.layout-three-column-filled.icon:before, .layout-three-column-filled.icon:after {
+.layout-three-column-filled.icon:before,
+.layout-three-column-filled.icon:after {
   top: 0;
   width: 5px;
   height: 13px;
@@ -9509,7 +9590,8 @@ body {
   border-radius: 1px;
   border: solid 1px currentColor;
 }
-.layout-1.icon:before, .layout-1.icon:after {
+.layout-1.icon:before,
+.layout-1.icon:after {
   left: -10px;
   width: 6px;
   height: 6px;
@@ -9525,7 +9607,8 @@ body {
 .layout-1.icon.filled {
   background-color: currentColor;
 }
-.layout-1.icon.filled:before, .layout-1.icon.filled:after {
+.layout-1.icon.filled:before,
+.layout-1.icon.filled:after {
   background-color: currentColor;
 }
 
@@ -9537,7 +9620,8 @@ body {
   border-radius: 1px;
   border: solid 1px currentColor;
 }
-.layout-2.icon:before, .layout-2.icon:after {
+.layout-2.icon:before,
+.layout-2.icon:after {
   right: -10px;
   width: 6px;
   height: 6px;
@@ -9553,7 +9637,8 @@ body {
 .layout-2.icon.filled {
   background-color: currentColor;
 }
-.layout-2.icon.filled:before, .layout-2.icon.filled:after {
+.layout-2.icon.filled:before,
+.layout-2.icon.filled:after {
   background-color: currentColor;
 }
 
@@ -9565,7 +9650,8 @@ body {
   border-radius: 1px;
   border: solid 1px currentColor;
 }
-.layout-3.icon:before, .layout-3.icon:after {
+.layout-3.icon:before,
+.layout-3.icon:after {
   bottom: -10px;
   width: 6px;
   height: 6px;
@@ -9581,7 +9667,8 @@ body {
 .layout-3.icon.filled {
   background-color: currentColor;
 }
-.layout-3.icon.filled:before, .layout-3.icon.filled:after {
+.layout-3.icon.filled:before,
+.layout-3.icon.filled:after {
   background-color: currentColor;
 }
 
@@ -9593,7 +9680,8 @@ body {
   border-radius: 1px;
   border: solid 1px currentColor;
 }
-.layout-4.icon:before, .layout-4.icon:after {
+.layout-4.icon:before,
+.layout-4.icon:after {
   top: -10px;
   width: 6px;
   height: 6px;
@@ -9609,7 +9697,8 @@ body {
 .layout-4.icon.filled {
   background-color: currentColor;
 }
-.layout-4.icon.filled:before, .layout-4.icon.filled:after {
+.layout-4.icon.filled:before,
+.layout-4.icon.filled:after {
   background-color: currentColor;
 }
 
@@ -9812,7 +9901,7 @@ body {
   border-top: solid 1px currentColor;
   border-left: solid 1px currentColor;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .reply-all.icon {
@@ -9824,14 +9913,15 @@ body {
   border-right: solid 1px currentColor;
   border-radius: 0 6px 0 0;
 }
-.reply-all.icon:before, .reply-all.icon:after {
+.reply-all.icon:before,
+.reply-all.icon:after {
   top: -4px;
   width: 6px;
   height: 6px;
   border-top: solid 1px currentColor;
   border-left: solid 1px currentColor;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 .reply-all.icon:after {
   left: -3px;
@@ -9846,7 +9936,8 @@ body {
   border-left: solid 1px currentColor;
   border-radius: 6px 0 0 0;
 }
-.reply-all-reflect.icon:before, .reply-all-reflect.icon:after {
+.reply-all-reflect.icon:before,
+.reply-all-reflect.icon:after {
   left: 1px;
   top: -4px;
   width: 6px;
@@ -9854,7 +9945,7 @@ body {
   border-bottom: solid 1px currentColor;
   border-right: solid 1px currentColor;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 .reply-all-reflect.icon:after {
   left: 4px;
@@ -9877,7 +9968,7 @@ body {
   border-top: solid 1px currentColor;
   border-right: solid 1px currentColor;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .control.icon {
@@ -9888,7 +9979,8 @@ body {
   background-color: currentColor;
   box-shadow: -5px 8px 0 0 currentColor;
 }
-.control.icon:before, .control.icon:after {
+.control.icon:before,
+.control.icon:after {
   width: 5px;
   height: 5px;
   border-radius: 50%;
@@ -9902,7 +9994,8 @@ body {
   right: -1px;
   top: 5px;
 }
-.control.icon.filled:before, .control.icon.filled:after {
+.control.icon.filled:before,
+.control.icon.filled:after {
   background-color: currentColor;
 }
 
@@ -9920,9 +10013,9 @@ body {
   background-color: currentColor;
   bottom: -1px;
   -webkit-transform-origin: left bottom;
-          transform-origin: left bottom;
+  transform-origin: left bottom;
   -webkit-transform: rotate(-26deg);
-          transform: rotate(-26deg);
+  transform: rotate(-26deg);
 }
 .cart.icon:after {
   width: 1px;
@@ -9931,9 +10024,9 @@ body {
   bottom: -1px;
   right: 0;
   -webkit-transform-origin: right bottom;
-          transform-origin: right bottom;
+  transform-origin: right bottom;
   -webkit-transform: rotate(23deg);
-          transform: rotate(23deg);
+  transform: rotate(23deg);
 }
 .cart.icon i {
   width: 3px;
@@ -9943,7 +10036,8 @@ body {
   left: -3px;
   box-shadow: 10px 0 0 0 currentColor, 14px -3px 0 0 currentColor;
 }
-.cart.icon i:before, .cart.icon i:after {
+.cart.icon i:before,
+.cart.icon i:after {
   top: 8px;
   left: 1px;
   width: 2px;
@@ -9964,7 +10058,8 @@ body {
   border-right: solid 3px transparent;
   border-top: solid 7px currentColor;
 }
-.cart-filled:before, .cart-filled:after {
+.cart-filled:before,
+.cart-filled:after {
   width: 4px;
   height: 4px;
   border-radius: 50%;
@@ -9989,9 +10084,9 @@ body {
   width: 1px;
   background-color: currentColor;
   -webkit-transform-origin: left top;
-          transform-origin: left top;
+  transform-origin: left top;
   -webkit-transform: rotate(21deg);
-          transform: rotate(21deg);
+  transform: rotate(21deg);
 }
 
 .allBorders {
@@ -10352,9 +10447,9 @@ body {
   border-bottom: solid 1px currentColor;
   border-right: solid 1px currentColor;
   -webkit-transform-origin: right bottom;
-          transform-origin: right bottom;
+  transform-origin: right bottom;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 .mirror-horizontal.icon:after {
   left: 1px;
@@ -10364,9 +10459,9 @@ body {
   border-top: solid 1px currentColor;
   border-left: solid 1px currentColor;
   -webkit-transform-origin: left top;
-          transform-origin: left top;
+  transform-origin: left top;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .mirror-horizontal-filled.icon {
@@ -10403,9 +10498,9 @@ body {
   border-bottom: solid 1px currentColor;
   border-right: solid 1px currentColor;
   -webkit-transform-origin: right bottom;
-          transform-origin: right bottom;
+  transform-origin: right bottom;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 .mirror-vertical.icon:after {
   left: 7px;
@@ -10415,9 +10510,9 @@ body {
   border-top: solid 1px currentColor;
   border-left: solid 1px currentColor;
   -webkit-transform-origin: left top;
-          transform-origin: left top;
+  transform-origin: left top;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .mirror-vertical-filled.icon {
@@ -10467,9 +10562,9 @@ body {
   background-color: currentColor;
   bottom: 1px;
   -webkit-transform-origin: bottom left;
-          transform-origin: bottom left;
+  transform-origin: bottom left;
   -webkit-transform: rotate(26deg);
-          transform: rotate(26deg);
+  transform: rotate(26deg);
 }
 .flip-horizontal.icon i:after {
   width: 1px;
@@ -10478,9 +10573,9 @@ body {
   right: 0;
   bottom: 1px;
   -webkit-transform-origin: bottom right;
-          transform-origin: bottom right;
+  transform-origin: bottom right;
   -webkit-transform: rotate(-26deg);
-          transform: rotate(-26deg);
+  transform: rotate(-26deg);
 }
 
 .flip-vertical.icon {
@@ -10512,9 +10607,9 @@ body {
   background-color: currentColor;
   left: 1px;
   -webkit-transform-origin: top left;
-          transform-origin: top left;
+  transform-origin: top left;
   -webkit-transform: rotate(26deg);
-          transform: rotate(26deg);
+  transform: rotate(26deg);
 }
 .flip-vertical.icon i:after {
   width: 16px;
@@ -10523,9 +10618,9 @@ body {
   bottom: 0;
   left: 1px;
   -webkit-transform-origin: bottom left;
-          transform-origin: bottom left;
+  transform-origin: bottom left;
   -webkit-transform: rotate(-26deg);
-          transform: rotate(-26deg);
+  transform: rotate(-26deg);
 }
 
 .flip-horizontal-filled.icon {
@@ -10670,7 +10765,8 @@ body {
 .alert-square.icon.filled {
   background-color: currentColor;
 }
-.alert-square.icon.filled:before, .alert-square.icon.filled:after {
+.alert-square.icon.filled:before,
+.alert-square.icon.filled:after {
   background-color: white;
 }
 
@@ -10699,7 +10795,8 @@ body {
 .alert-circle.icon.filled {
   background-color: currentColor;
 }
-.alert-circle.icon.filled:before, .alert-circle.icon.filled:after {
+.alert-circle.icon.filled:before,
+.alert-circle.icon.filled:after {
   background-color: white;
 }
 
@@ -10746,9 +10843,9 @@ body {
   height: 5px;
   background-color: white;
   -webkit-transform-origin: left bottom;
-          transform-origin: left bottom;
+  transform-origin: left bottom;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 .rotate-clockwise.icon:after {
   right: -2px;
@@ -10758,7 +10855,7 @@ body {
   border-top: solid 3px transparent;
   border-left: solid 3px currentColor;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .rotate-counter-clockwise.icon {
@@ -10776,9 +10873,9 @@ body {
   height: 5px;
   background-color: white;
   -webkit-transform-origin: right bottom;
-          transform-origin: right bottom;
+  transform-origin: right bottom;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 .rotate-counter-clockwise.icon:after {
   left: -2px;
@@ -10788,7 +10885,7 @@ body {
   border-top: solid 3px transparent;
   border-left: solid 3px currentColor;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .rotate-square-clockwise.icon {
@@ -10814,7 +10911,7 @@ body {
   border-bottom: solid 3px transparent;
   border-right: solid 3px currentColor;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .rotate-square-counter-clockwise.icon {
@@ -10840,7 +10937,7 @@ body {
   border-top: solid 3px transparent;
   border-left: solid 3px currentColor;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .refresh-clockwise.icon {
@@ -10930,7 +11027,7 @@ body {
   border-left: solid 3px currentColor;
   border-bottom: solid 3px transparent;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 .connection.icon i:after {
   left: 9px;
@@ -10940,7 +11037,7 @@ body {
   border-right: solid 3px currentColor;
   border-top: solid 3px transparent;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .connection2.icon {
@@ -10976,7 +11073,7 @@ body {
   border-right: solid 3px currentColor;
   border-top: solid 3px transparent;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 .connection2.icon i:after {
   left: 9px;
@@ -10986,7 +11083,7 @@ body {
   border-left: solid 3px currentColor;
   border-bottom: solid 3px transparent;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .sign-in.icon {
@@ -11007,7 +11104,7 @@ body {
   border-top: solid 1px currentColor;
   border-right: solid 1px currentColor;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .sign-out.icon {
@@ -11028,7 +11125,7 @@ body {
   border-top: solid 1px currentColor;
   border-right: solid 1px currentColor;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .grid-4.icon {
@@ -11042,7 +11139,8 @@ body {
   height: 5px;
   border: solid 1px currentColor;
   border-radius: 1px;
-  box-shadow: 8px 0 0 0 currentColor, 0 8px 0 0 currentColor, 8px 8px 0 0 currentColor;
+  box-shadow: 8px 0 0 0 currentColor, 0 8px 0 0 currentColor,
+    8px 8px 0 0 currentColor;
 }
 .grid-4.icon:after {
   top: 1px;
@@ -11071,7 +11169,10 @@ body {
   border: solid 1px currentColor;
   border-radius: 1px;
   background-color: currentColor;
-  box-shadow: 6px 0 0 0 currentColor, 12px 0 0 0 currentColor, 0 6px 0 0 currentColor, 6px 6px 0 0 currentColor, 12px 6px 0 0 currentColor, 0px 12px 0 0 currentColor, 6px 12px 0 0 currentColor, 12px 12px 0 0 currentColor;
+  box-shadow: 6px 0 0 0 currentColor, 12px 0 0 0 currentColor,
+    0 6px 0 0 currentColor, 6px 6px 0 0 currentColor, 12px 6px 0 0 currentColor,
+    0px 12px 0 0 currentColor, 6px 12px 0 0 currentColor,
+    12px 12px 0 0 currentColor;
 }
 .grid-9.icon:after {
   left: 1px;
@@ -11079,7 +11180,9 @@ body {
   width: 3px;
   height: 3px;
   background-color: white;
-  box-shadow: 6px 0 0 0 white, 12px 0 0 0 white, 0 6px 0 0 white, 6px 6px 0 0 white, 12px 6px 0 0 white, 0px 12px 0 0 white, 6px 12px 0 0 white, 12px 12px 0 0 white;
+  box-shadow: 6px 0 0 0 white, 12px 0 0 0 white, 0 6px 0 0 white,
+    6px 6px 0 0 white, 12px 6px 0 0 white, 0px 12px 0 0 white,
+    6px 12px 0 0 white, 12px 12px 0 0 white;
 }
 .grid-9.icon.filled:after {
   display: none;
@@ -11095,7 +11198,10 @@ body {
   border-radius: 50%;
   background-color: currentColor;
   border: solid 1px currentColor;
-  box-shadow: 5px 0 0 0 currentColor, 10px 0 0 0 currentColor, 0 5px 0 0 currentColor, 5px 5px 0 0 currentColor, 10px 5px 0 0 currentColor, 0 10px 0 0 currentColor, 5px 10px 0 0 currentColor, 10px 10px 0 0 currentColor, 5px 15px 0 0 currentColor;
+  box-shadow: 5px 0 0 0 currentColor, 10px 0 0 0 currentColor,
+    0 5px 0 0 currentColor, 5px 5px 0 0 currentColor, 10px 5px 0 0 currentColor,
+    0 10px 0 0 currentColor, 5px 10px 0 0 currentColor,
+    10px 10px 0 0 currentColor, 5px 15px 0 0 currentColor;
 }
 .dial.icon:after {
   left: 1px;
@@ -11104,7 +11210,9 @@ body {
   height: 2px;
   border-radius: 50%;
   background-color: white;
-  box-shadow: 5px 0 0 0 white, 10px 0 0 0 white, 0 5px 0 0 white, 5px 5px 0 0 white, 10px 5px 0 0 white, 0 10px 0 0 white, 5px 10px 0 0 white, 10px 10px 0 0 white, 5px 15px 0 0 white;
+  box-shadow: 5px 0 0 0 white, 10px 0 0 0 white, 0 5px 0 0 white,
+    5px 5px 0 0 white, 10px 5px 0 0 white, 0 10px 0 0 white, 5px 10px 0 0 white,
+    10px 10px 0 0 white, 5px 15px 0 0 white;
 }
 .dial.icon.filled:after {
   display: none;
@@ -11118,7 +11226,8 @@ body {
   border: solid 1px currentColor;
   border-radius: 1px;
 }
-.list.icon:before, .list.icon:after {
+.list.icon:before,
+.list.icon:after {
   left: -1px;
   width: 15px;
   height: 2px;
@@ -11134,7 +11243,8 @@ body {
 .list.icon.filled {
   background-color: currentColor;
 }
-.list.icon.filled:before, .list.icon.filled:after {
+.list.icon.filled:before,
+.list.icon.filled:after {
   background-color: currentColor;
 }
 
@@ -11146,7 +11256,8 @@ body {
   border-radius: 50%;
   border: solid 1px currentColor;
 }
-.list-circle.icon:before, .list-circle.icon:after {
+.list-circle.icon:before,
+.list-circle.icon:after {
   left: -1px;
   width: 2px;
   height: 2px;
@@ -11167,7 +11278,8 @@ body {
   border-radius: 1px;
   border: solid 1px currentColor;
 }
-.list-circle.icon i:before, .list-circle.icon i:after {
+.list-circle.icon i:before,
+.list-circle.icon i:after {
   left: -1px;
   width: 10px;
   height: 2px;
@@ -11213,7 +11325,8 @@ body {
   border-radius: 1px;
   border: solid 1px currentColor;
 }
-.list-square.icon:before, .list-square.icon:after {
+.list-square.icon:before,
+.list-square.icon:after {
   left: -1px;
   width: 2px;
   height: 2px;
@@ -11234,7 +11347,8 @@ body {
   border-radius: 1px;
   border: solid 1px currentColor;
 }
-.list-square.icon i:before, .list-square.icon i:after {
+.list-square.icon i:before,
+.list-square.icon i:after {
   left: -1px;
   width: 10px;
   height: 2px;
@@ -11280,7 +11394,8 @@ body {
   border: solid 1px currentColor;
   background-color: white;
 }
-.sync1.icon:before, .sync1.icon:after {
+.sync1.icon:before,
+.sync1.icon:after {
   width: 4px;
   height: 1px;
   background-color: currentColor;
@@ -11301,7 +11416,7 @@ body {
   left: -2px;
   top: 3px;
   -webkit-transform: rotate(-22.5deg);
-          transform: rotate(-22.5deg);
+  transform: rotate(-22.5deg);
 }
 .sync1.icon i:before {
   width: 6px;
@@ -11323,7 +11438,8 @@ body {
   border: solid 1px currentColor;
   background-color: white;
 }
-.sync2.icon:before, .sync2.icon:after {
+.sync2.icon:before,
+.sync2.icon:after {
   width: 4px;
   height: 1px;
   background-color: currentColor;
@@ -11344,7 +11460,7 @@ body {
   left: -2px;
   top: 3px;
   -webkit-transform: rotate(22.5deg);
-          transform: rotate(22.5deg);
+  transform: rotate(22.5deg);
 }
 .sync2.icon i:before {
   width: 6px;
@@ -11368,7 +11484,8 @@ body {
   left: 1px;
   top: 5px;
   background-color: currentColor;
-  box-shadow: 6px 0 0 0 currentColor,  12px 0 0 0 currentColor,  14px 0 0 0 currentColor;
+  box-shadow: 6px 0 0 0 currentColor, 12px 0 0 0 currentColor,
+    14px 0 0 0 currentColor;
 }
 .barcode.icon:after {
   width: 2px;
@@ -11376,7 +11493,7 @@ body {
   left: 3px;
   top: 5px;
   background-color: currentColor;
-  box-shadow: 6px 0 0 0 currentColor,  15px 0 0 0 currentColor;
+  box-shadow: 6px 0 0 0 currentColor, 15px 0 0 0 currentColor;
 }
 
 .barcode2.icon {
@@ -11389,7 +11506,10 @@ body {
   left: 1px;
   top: 5px;
   background-color: currentColor;
-  box-shadow: 2px 0 0 0 currentColor,  3px 0 0 0 currentColor,  6px 0 0 0 currentColor,  8px 0 0 0 currentColor,  9px 0 0 0 currentColor,  12px 0 0 0 currentColor,  14px 0 0 0 currentColor,  17px 0 0 0 currentColor,  18px 0 0 0 currentColor;
+  box-shadow: 2px 0 0 0 currentColor, 3px 0 0 0 currentColor,
+    6px 0 0 0 currentColor, 8px 0 0 0 currentColor, 9px 0 0 0 currentColor,
+    12px 0 0 0 currentColor, 14px 0 0 0 currentColor, 17px 0 0 0 currentColor,
+    18px 0 0 0 currentColor;
 }
 .barcode2.icon:after {
   width: 1px;
@@ -11397,7 +11517,10 @@ body {
   left: 1px;
   top: 14px;
   background-color: currentColor;
-  box-shadow: 2px 0 0 0 currentColor,  3px 0 0 0 currentColor,  6px 0 0 0 currentColor,  8px 0 0 0 currentColor,  9px 0 0 0 currentColor,  12px 0 0 0 currentColor,  14px 0 0 0 currentColor,  17px 0 0 0 currentColor,  18px 0 0 0 currentColor;
+  box-shadow: 2px 0 0 0 currentColor, 3px 0 0 0 currentColor,
+    6px 0 0 0 currentColor, 8px 0 0 0 currentColor, 9px 0 0 0 currentColor,
+    12px 0 0 0 currentColor, 14px 0 0 0 currentColor, 17px 0 0 0 currentColor,
+    18px 0 0 0 currentColor;
 }
 
 .pill.icon {
@@ -11436,7 +11559,8 @@ body {
   border-radius: 50%;
   margin: 3px;
 }
-.alarm.icon:before, .alarm.icon:after {
+.alarm.icon:before,
+.alarm.icon:after {
   width: 4px;
   height: 4px;
   border-radius: 50%;
@@ -11464,7 +11588,8 @@ body {
   top: 2px;
   left: 6px;
 }
-.alarm.icon i:before, .alarm.icon i:after {
+.alarm.icon i:before,
+.alarm.icon i:after {
   width: 1px;
   height: 3px;
   background-color: currentColor;
@@ -11473,17 +11598,17 @@ body {
   left: -7px;
   top: 11px;
   -webkit-transform-origin: right center;
-          transform-origin: right center;
+  transform-origin: right center;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 .alarm.icon i:after {
   left: 5px;
   top: 11px;
   -webkit-transform-origin: left center;
-          transform-origin: left center;
+  transform-origin: left center;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 .alarm.icon.filled {
   background-color: currentColor;
@@ -11499,7 +11624,7 @@ body {
   border-radius: 0 0 3px 3px;
   margin: 4px 7px;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 .syringe:before {
   width: 1px;
@@ -11584,7 +11709,8 @@ body {
 .unite.icon.filled {
   background-color: currentColor;
 }
-.unite.icon.filled:before, .unite.icon.filled:after {
+.unite.icon.filled:before,
+.unite.icon.filled:after {
   background-color: currentColor;
 }
 .unite.icon.filled:after {
@@ -11659,7 +11785,8 @@ body {
   border-bottom: solid 1px transparent;
   border-left: solid 1px transparent;
 }
-.glasses.icon:before, .glasses.icon:after {
+.glasses.icon:before,
+.glasses.icon:after {
   width: 6px;
   height: 6px;
   border-radius: 50%;
@@ -11668,13 +11795,16 @@ body {
 }
 .glasses.icon:before {
   left: -7px;
-  box-shadow: -4px 0 0 -3.5px currentColor,  -4.5px 0 0 -3.5px currentColor,  -5px 0 0 -3.5px currentColor;
+  box-shadow: -4px 0 0 -3.5px currentColor, -4.5px 0 0 -3.5px currentColor,
+    -5px 0 0 -3.5px currentColor;
 }
 .glasses.icon:after {
   right: -7px;
-  box-shadow: 4px 0 0 -3.5px currentColor,  4.5px 0 0 -3.5px currentColor,  5px 0 0 -3.5px currentColor;
+  box-shadow: 4px 0 0 -3.5px currentColor, 4.5px 0 0 -3.5px currentColor,
+    5px 0 0 -3.5px currentColor;
 }
-.glasses.icon.filled:before, .glasses.icon.filled:after {
+.glasses.icon.filled:before,
+.glasses.icon.filled:after {
   background-color: currentColor;
 }
 
@@ -11685,7 +11815,8 @@ body {
   height: 1px;
   background-color: currentColor;
 }
-.sunGlasses.icon:before, .sunGlasses.icon:after {
+.sunGlasses.icon:before,
+.sunGlasses.icon:after {
   width: 8px;
   height: 6px;
   border: solid 1px currentColor;
@@ -11699,7 +11830,8 @@ body {
   border-radius: 2px 3px 4px 6px;
   right: -9px;
 }
-.sunGlasses.icon.filled:before, .sunGlasses.icon.filled:after {
+.sunGlasses.icon.filled:before,
+.sunGlasses.icon.filled:after {
   background-color: currentColor;
 }
 
@@ -11844,7 +11976,8 @@ body {
   border: double 3px currentColor;
   border-radius: 50%;
 }
-.clothesButton.icon:before, .clothesButton.icon:after {
+.clothesButton.icon:before,
+.clothesButton.icon:after {
   width: 1px;
   height: 1px;
   border-radius: 50%;
@@ -11866,7 +11999,8 @@ body {
   border: double 3px white;
   background-color: currentColor;
 }
-.clothesButton.icon.filled:before, .clothesButton.icon.filled:after {
+.clothesButton.icon.filled:before,
+.clothesButton.icon.filled:after {
   border: solid 1px white;
 }
 .clothesButton.icon.filled:before {
@@ -11935,7 +12069,8 @@ body {
   border-radius: 50%;
   left: 6px;
   top: 6px;
-  box-shadow: -7px 0 0 -1px currentColor,  0 -7px 0 -1px currentColor,  7px 0 0 -1px currentColor;
+  box-shadow: -7px 0 0 -1px currentColor, 0 -7px 0 -1px currentColor,
+    7px 0 0 -1px currentColor;
 }
 .dashboard.icon.filled {
   background-color: currentColor;
@@ -11945,7 +12080,8 @@ body {
 }
 .dashboard.icon.filled:after {
   border-color: white;
-  box-shadow: -7px 0 0 -1px white,  -8px 0 0 -1px white,  0 -7px 0 -1px white,  0 -8px 0 -1px white,  7px 0 0 -1px white, 8px 0 0 -1px white;
+  box-shadow: -7px 0 0 -1px white, -8px 0 0 -1px white, 0 -7px 0 -1px white,
+    0 -8px 0 -1px white, 7px 0 0 -1px white, 8px 0 0 -1px white;
 }
 
 .dashboardLow.icon {
@@ -11966,9 +12102,9 @@ body {
   left: 7px;
   top: 3px;
   -webkit-transform-origin: center 5px;
-          transform-origin: center 5px;
+  transform-origin: center 5px;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 .dashboardLow.icon:after {
   width: 1px;
@@ -11977,7 +12113,8 @@ body {
   border-radius: 50%;
   left: 6px;
   top: 6px;
-  box-shadow: -7px 0 0 -1px currentColor,  0 -7px 0 -1px currentColor,  7px 0 0 -1px currentColor;
+  box-shadow: -7px 0 0 -1px currentColor, 0 -7px 0 -1px currentColor,
+    7px 0 0 -1px currentColor;
 }
 .dashboardLow.icon.filled {
   background-color: currentColor;
@@ -11987,7 +12124,8 @@ body {
 }
 .dashboardLow.icon.filled:after {
   border-color: white;
-  box-shadow: -7px 0 0 -1px white,  -8px 0 0 -1px white,  0 -7px 0 -1px white,  0 -8px 0 -1px white,  7px 0 0 -1px white, 8px 0 0 -1px white;
+  box-shadow: -7px 0 0 -1px white, -8px 0 0 -1px white, 0 -7px 0 -1px white,
+    0 -8px 0 -1px white, 7px 0 0 -1px white, 8px 0 0 -1px white;
 }
 
 .dashboardHigh.icon {
@@ -12008,9 +12146,9 @@ body {
   left: 7px;
   top: 3px;
   -webkit-transform-origin: center 5px;
-          transform-origin: center 5px;
+  transform-origin: center 5px;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 .dashboardHigh.icon:after {
   width: 1px;
@@ -12019,7 +12157,8 @@ body {
   border-radius: 50%;
   left: 6px;
   top: 6px;
-  box-shadow: -7px 0 0 -1px currentColor,  0 -7px 0 -1px currentColor,  7px 0 0 -1px currentColor;
+  box-shadow: -7px 0 0 -1px currentColor, 0 -7px 0 -1px currentColor,
+    7px 0 0 -1px currentColor;
 }
 .dashboardHigh.icon.filled {
   background-color: currentColor;
@@ -12029,7 +12168,8 @@ body {
 }
 .dashboardHigh.icon.filled:after {
   border-color: white;
-  box-shadow: -7px 0 0 -1px white,  -8px 0 0 -1px white,  0 -7px 0 -1px white,  0 -8px 0 -1px white,  7px 0 0 -1px white, 8px 0 0 -1px white;
+  box-shadow: -7px 0 0 -1px white, -8px 0 0 -1px white, 0 -7px 0 -1px white,
+    0 -8px 0 -1px white, 7px 0 0 -1px white, 8px 0 0 -1px white;
 }
 
 .verticalAlignCenter.icon {
@@ -12238,9 +12378,9 @@ body {
   border-radius: 50%;
   background-color: currentColor;
   -webkit-transform-origin: center 10.5px;
-          transform-origin: center 10.5px;
+  transform-origin: center 10.5px;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 .hammerFilled.icon:before {
   width: 13px;
@@ -12268,9 +12408,9 @@ body {
   border-right: solid 1px currentColor;
   border-bottom: solid 1px transparent;
   -webkit-transform-origin: center 10.5px;
-          transform-origin: center 10.5px;
+  transform-origin: center 10.5px;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 .hammer.icon:before {
   left: -1px;
@@ -12323,9 +12463,9 @@ body {
   border-radius: 50%;
   background-color: currentColor;
   -webkit-transform-origin: center 10.5px;
-          transform-origin: center 10.5px;
+  transform-origin: center 10.5px;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 .wrenchFilled.icon:after {
   width: 0;
@@ -12345,7 +12485,8 @@ body {
   background-color: white;
   left: 4px;
   border-radius: 0 0 1px 1px;
-  box-shadow: 0 15px 0px 1px currentColor, 0 11px 0px 1px currentColor, 0 8px 0px 1px currentColor;
+  box-shadow: 0 15px 0px 1px currentColor, 0 11px 0px 1px currentColor,
+    0 8px 0px 1px currentColor;
 }
 
 .wrench.icon {
@@ -12356,9 +12497,9 @@ body {
   border-radius: 50%;
   border: solid 1px currentColor;
   -webkit-transform-origin: center 10.5px;
-          transform-origin: center 10.5px;
+  transform-origin: center 10.5px;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 .wrench.icon:before {
   top: -1px;
@@ -12422,7 +12563,7 @@ body {
   border: solid 1px currentColor;
   border-radius: 50%;
   -webkit-transform: rotate(30deg);
-          transform: rotate(30deg);
+  transform: rotate(30deg);
 }
 .compass.icon:before {
   left: 4px;
@@ -12666,9 +12807,9 @@ body {
   border-right: solid 1px currentColor;
   top: -20px;
   -webkit-transform-origin: left bottom;
-          transform-origin: left bottom;
+  transform-origin: left bottom;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 .insert.filled:before {
   background-color: currentColor;
@@ -12694,9 +12835,9 @@ body {
   top: -4px;
   z-index: -1;
   -webkit-transform-origin: right top;
-          transform-origin: right top;
+  transform-origin: right top;
   -webkit-transform: skew(-21deg);
-          transform: skew(-21deg);
+  transform: skew(-21deg);
 }
 .board.icon:after {
   width: 1px;
@@ -12706,9 +12847,9 @@ body {
   top: -4px;
   z-index: -1;
   -webkit-transform-origin: left top;
-          transform-origin: left top;
+  transform-origin: left top;
   -webkit-transform: skew(21deg);
-          transform: skew(21deg);
+  transform: skew(21deg);
 }
 .board.icon.filled {
   background-color: currentColor;
@@ -12886,7 +13027,7 @@ body {
   height: 1px;
   background-color: currentColor;
   -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 .detail.minus i {
   top: 7px;
@@ -13054,7 +13195,7 @@ body {
   border: solid 1px currentColor;
 }
 .shut.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 1px;
   height: 8px;
@@ -13067,7 +13208,7 @@ body {
   transform: rotate(-45deg);
 }
 .shut.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 4px;
   height: 4px;
@@ -13087,7 +13228,7 @@ body {
   border: solid 1px currentColor;
 }
 .shut-right.icon:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 1px;
   height: 8px;
@@ -13097,10 +13238,10 @@ body {
   right: -3px;
   top: -2px;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 .shut-right.icon:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 4px;
   height: 4px;

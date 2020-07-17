@@ -7,15 +7,15 @@ body {
   position: absolute;
   &:before,
   &:after {
-    content: '';
+    content: "";
     position: absolute;
     display: block;
   }
-  i { 
+  i {
     position: absolute;
     &:before,
     &:after {
-      content: '';
+      content: "";
       position: absolute;
       display: block;
     }
@@ -24,12 +24,12 @@ body {
 .search.icon {
   margin-top: 2px;
   margin-left: 3px;
-  width: 12px; 
+  width: 12px;
   height: 12px;
   border: solid 1px currentColor;
   border-radius: 100%;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
   &:before {
     top: 12px;
     left: 5px;
@@ -41,8 +41,8 @@ body {
     left: 4px;
     top: 4px;
     -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
-    &:before, 
+    transform: rotate(45deg);
+    &:before,
     &:after {
       width: 6px;
       height: 1px;
@@ -52,14 +52,14 @@ body {
     }
     &:after {
       -webkit-transform: rotate(90deg);
-              transform: rotate(90deg);
+      transform: rotate(90deg);
     }
   }
   &.minusI i {
     left: 4px;
     top: 4px;
     -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
+    transform: rotate(45deg);
     &:before {
       width: 6px;
       height: 1px;
@@ -80,7 +80,7 @@ body {
     }
     &.plusI {
       background-color: currentColor;
-      i:before, 
+      i:before,
       i:after {
         background-color: $white;
       }
@@ -97,19 +97,19 @@ body {
   margin-top: 0;
   margin-left: 0;
   width: 21px;
-  height: 21px; 
+  height: 21px;
   &:before,
   &:after {
-    width: 21px; 
+    width: 21px;
     height: 1px;
     background-color: currentColor;
     top: 10px;
     -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
+    transform: rotate(45deg);
   }
   &:before {
     -webkit-transform: rotate(-45deg);
-            transform: rotate(-45deg);
+    transform: rotate(-45deg);
   }
 }
 .hamburger.icon {
@@ -144,7 +144,7 @@ body {
     border-top: solid 1px currentColor;
     border-right: solid 1px currentColor;
     -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
+    transform: rotate(45deg);
     right: 1px;
     top: -5px;
   }
@@ -161,7 +161,7 @@ body {
     border-top: solid 1px currentColor;
     border-right: solid 1px currentColor;
     -webkit-transform: rotate(-135deg);
-            transform: rotate(-135deg);
+    transform: rotate(-135deg);
     left: 1px;
     top: -5px;
   }
@@ -178,7 +178,7 @@ body {
     border-top: solid 1px currentColor;
     border-right: solid 1px currentColor;
     -webkit-transform: rotate(-45deg);
-            transform: rotate(-45deg);
+    transform: rotate(-45deg);
     left: -5px;
     top: 1px;
   }
@@ -195,7 +195,7 @@ body {
     border-top: solid 1px currentColor;
     border-right: solid 1px currentColor;
     -webkit-transform: rotate(135deg);
-            transform: rotate(135deg);
+    transform: rotate(135deg);
     left: -5px;
     top: 3px;
   }
@@ -272,7 +272,7 @@ body {
   border: solid 1px currentColor;
   border-radius: 7px 7px 7px 0;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
   &:before {
     width: 4px;
     height: 4px;
@@ -304,7 +304,7 @@ body {
     top: 7px;
     left: -1px;
     -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
+    transform: rotate(45deg);
   }
   &.filled {
     background-color: currentColor;
@@ -323,17 +323,17 @@ body {
   border-radius: 8px;
   &.filled {
     background-color: currentColor;
-    &:before, 
+    &:before,
     &:after {
       background-color: $white;
     }
   }
-  &:before, 
+  &:before,
   &:after {
     background-color: currentColor;
     left: 7px;
     -webkit-transform-origin: 0% 0%;
-            transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
   }
   &:before {
     width: 5px;
@@ -412,7 +412,7 @@ body {
   border-bottom-left-radius: 0px;
   &:before {
     width: 15px;
-    height: 0px; 
+    height: 0px;
     border-top: solid 1px currentColor;
     border-bottom: solid 1px $white;
     bottom: -2px;
@@ -427,7 +427,7 @@ body {
     bottom: -5px;
     left: 2px;
   }
-  &.filled{
+  &.filled {
     background-color: currentColor;
     &:after {
       background-color: currentColor;
@@ -442,7 +442,7 @@ body {
   border-left: solid 1px currentColor;
   border-bottom: solid 1px currentColor;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
   &:before {
     width: 8px;
     height: 5px;
@@ -515,7 +515,7 @@ body {
   height: 2px;
   border: solid 1px currentColor;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
   border-radius: 1px;
   &:before {
     width: 0px;
@@ -537,8 +537,8 @@ body {
   width: 7px;
   height: 1px;
   background-color: currentColor;
-  -webkit-transform :rotate(-45deg);
-          transform :rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
   &:before,
   &:after {
     width: 8px;
@@ -562,7 +562,7 @@ body {
   border: solid 1px currentColor;
   border-radius: 1px;
   -webkit-transform: skewY(20deg);
-          transform: skewY(20deg);
+  transform: skewY(20deg);
   &:before,
   &:after {
     width: 4px;
@@ -570,7 +570,7 @@ body {
     border: solid 1px currentColor;
     border-radius: 1px;
     -webkit-transform: skewY(-40deg);
-            transform: skewY(-40deg);
+    transform: skewY(-40deg);
   }
   &:before {
     left: -6px;
@@ -588,27 +588,27 @@ body {
   height: 10px;
   border: solid 1px currentColor;
   border-radius: 1px;
-  &:before, 
+  &:before,
   &:after {
     width: 1px;
     height: 10px;
     background-color: currentColor;
     -webkit-transform-origin: bottom;
-            transform-origin: bottom;
+    transform-origin: bottom;
     left: 7px;
     top: -4px;
   }
   &:before {
     -webkit-transform: rotate(-54deg);
-            transform: rotate(-54deg);
+    transform: rotate(-54deg);
   }
   &:after {
     -webkit-transform: rotate(54deg);
-            transform: rotate(54deg);
+    transform: rotate(54deg);
   }
   &.filled {
     background-color: currentColor;
-    &:before, 
+    &:before,
     &:after {
       background-color: $white;
     }
@@ -629,7 +629,7 @@ body {
     border-top: solid 1px currentColor;
     border-left: solid 1px currentColor;
     -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
+    transform: rotate(45deg);
     top: 10px;
     left: 1px;
   }
@@ -686,11 +686,11 @@ body {
     left: 3px;
     top: -2px;
     -webkit-transform-origin: center;
-            transform-origin: center;
+    transform-origin: center;
   }
   &:after {
     -webkit-transform: rotate(90deg);
-            transform: rotate(90deg);
+    transform: rotate(90deg);
   }
 }
 .card.icon {
@@ -716,7 +716,7 @@ body {
   }
   &.filled {
     background-color: currentColor;
-    &:before, 
+    &:before,
     &:after {
       background-color: $white;
     }
@@ -734,7 +734,7 @@ body {
     border-top: solid 1px currentColor;
     border-left: solid 1px currentColor;
     -webkit-transform: rotate(-45deg);
-            transform: rotate(-45deg);
+    transform: rotate(-45deg);
     left: -5px;
     top: 2px;
   }
@@ -759,7 +759,7 @@ body {
       border-bottom: solid 4px transparent;
       border-left: solid 5px transparent;
       -webkit-transform: rotate(0deg);
-              transform: rotate(0deg);
+      transform: rotate(0deg);
       left: -9px;
       top: 0px;
     }
@@ -777,17 +777,17 @@ body {
     height: 1px;
     background-color: currentColor;
     -webkit-transform-origin: center;
-            transform-origin: center;
+    transform-origin: center;
   }
   &:after {
     -webkit-transform: rotate(-90deg);
-            transform: rotate(-90deg);
+    transform: rotate(-90deg);
   }
 }
 .volumeMinus.icon {
   margin-left: 2px;
   margin-top: 7px;
-  &:before{
+  &:before {
     width: 6px;
     height: 1px;
     background-color: currentColor;
@@ -802,15 +802,15 @@ body {
     height: 1px;
     background-color: currentColor;
     -webkit-transform-origin: center;
-            transform-origin: center;
+    transform-origin: center;
   }
   &:before {
     -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
+    transform: rotate(45deg);
   }
   &:after {
     -webkit-transform: rotate(-45deg);
-            transform: rotate(-45deg);
+    transform: rotate(-45deg);
   }
 }
 .volumeOne.icon {
@@ -884,7 +884,7 @@ body {
       background-color: currentColor;
       left: 3px;
       top: -4px;
-    } 
+    }
   }
   &.filled {
     background-color: currentColor;
@@ -898,7 +898,7 @@ body {
     width: 8px;
     height: 8px;
     -webkit-transform: rotate(-45deg);
-            transform: rotate(-45deg);
+    transform: rotate(-45deg);
   }
   &:before {
     border-left: solid 1px currentColor;
@@ -944,7 +944,7 @@ body {
     border-bottom: solid 1px currentColor;
     border-radius: 1px;
     -webkit-transform: rotate(-45deg);
-            transform: rotate(-45deg);
+    transform: rotate(-45deg);
     left: 1px;
     top: 1px;
   }
@@ -1123,7 +1123,7 @@ body {
     border-top: solid 1px currentColor;
     border-right: solid 1px currentColor;
     -webkit-transform: rotate(-45deg);
-            transform: rotate(-45deg);
+    transform: rotate(-45deg);
     left: 3px;
     top: 4px;
   }
@@ -1164,7 +1164,7 @@ body {
     left: -3px;
     top: -2px;
     -webkit-transform: rotate(-45deg);
-            transform: rotate(-45deg);
+    transform: rotate(-45deg);
   }
   &:after {
     width: 4px;
@@ -1212,7 +1212,7 @@ body {
     width: 4px;
     height: 4px;
     -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
+    transform: rotate(45deg);
     background-color: $white;
     border-bottom: solid 1px currentColor;
     border-right: solid 1px currentColor;
@@ -1236,7 +1236,7 @@ body {
   border-top: solid 1px currentColor;
   border-radius: 4px 4px 0 0;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
   &:before {
     top: 11px;
     left: -1px;
@@ -1320,7 +1320,7 @@ body {
   border-radius: 50%;
   border: solid 1px currentColor;
   -webkit-transform: rotate(135deg);
-          transform: rotate(135deg);
+  transform: rotate(135deg);
   &:before {
     width: 12px;
     height: 1px;
@@ -1356,7 +1356,7 @@ body {
     border-top: solid 1px currentColor;
     border-left: solid 1px currentColor;
     -webkit-transform: rotate(-22.5deg);
-            transform: rotate(-22.5deg);
+    transform: rotate(-22.5deg);
     left: 1px;
     top: 10px;
   }
@@ -1534,7 +1534,7 @@ body {
   border-radius: 70% 15%;
   border: solid 1px currentColor;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
   &:before {
     width: 6px;
     height: 6px;
@@ -1693,7 +1693,7 @@ body {
     border: solid 1px currentColor;
     border-radius: 85% 15%;
     -webkit-transform: rotate(-45deg);
-            transform: rotate(-45deg);
+    transform: rotate(-45deg);
   }
   &:after {
     width: 15px;
@@ -1761,7 +1761,7 @@ body {
 .mobile.icon {
   margin-left: 4px;
   margin-top: 0px;
-  width: 12px; 
+  width: 12px;
   height: 19px;
   border-radius: 2px;
   border: solid 1px currentColor;
@@ -1797,7 +1797,7 @@ body {
 .tablet.icon {
   margin-left: 2px;
   margin-top: 1px;
-  width: 15px; 
+  width: 15px;
   height: 17px;
   border-radius: 2px;
   border: solid 1px currentColor;
@@ -1818,7 +1818,7 @@ body {
   }
   &.filled {
     margin-left: 2px;
-    width: 15px; 
+    width: 15px;
     height: 14px;
     border-top: solid 2px currentColor;
     border-bottom: solid 3px currentColor;
@@ -1855,7 +1855,7 @@ body {
     width: 12px;
     height: 8px;
     -webkit-transform: rotate(-45deg);
-            transform: rotate(-45deg);
+    transform: rotate(-45deg);
   }
   &.filled {
     background-color: currentColor;
@@ -1913,7 +1913,7 @@ body {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  border: solid 1px currentColor; 
+  border: solid 1px currentColor;
   &:before {
     width: 11px;
     height: 1px;
@@ -1950,7 +1950,7 @@ body {
   width: 14px;
   height: 18px;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
   &:before {
     left: 0;
     top: -17px;
@@ -1998,7 +1998,7 @@ body {
     }
   }
 }
-.float.icon { 
+.float.icon {
   margin-left: 2px;
   margin-top: 2px;
   width: 15px;
@@ -2015,11 +2015,11 @@ body {
   }
   &:before {
     -webkit-transform: rotate(-45deg);
-            transform: rotate(-45deg);
+    transform: rotate(-45deg);
   }
   &:after {
     -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
+    transform: rotate(45deg);
   }
   i {
     width: 7px;
@@ -2033,7 +2033,7 @@ body {
   }
   &.filled {
     background-color: currentColor;
-    &:before, 
+    &:before,
     &:after {
       background-color: $white;
     }
@@ -2144,17 +2144,11 @@ body {
     width: 1px;
     height: 1px;
     border: 1px solid transparent;
-    box-shadow: 
-      -2px 0 0 -1px currentColor, 
-      2px 0 0 -1px currentColor, 
-      0 -2px 0 -1px currentColor, 
-      0 2px 0 -1px currentColor, 
-      -6px 0 0 -1px currentColor, 
-      6px 0 0 -1px currentColor, 
-      -4px -2px 0 -1px currentColor, 
-      -4px 2px 0 -1px currentColor, 
-      4px -2px 0 -1px currentColor, 
-      4px 2px 0 -1px currentColor;
+    box-shadow: -2px 0 0 -1px currentColor, 2px 0 0 -1px currentColor,
+      0 -2px 0 -1px currentColor, 0 2px 0 -1px currentColor,
+      -6px 0 0 -1px currentColor, 6px 0 0 -1px currentColor,
+      -4px -2px 0 -1px currentColor, -4px 2px 0 -1px currentColor,
+      4px -2px 0 -1px currentColor, 4px 2px 0 -1px currentColor;
   }
   &:after {
     width: 9px;
@@ -2166,17 +2160,10 @@ body {
   &.filled {
     background-color: currentColor;
     &:before {
-    box-shadow: 
-      -2px 0 0 -1px $white, 
-      2px 0 0 -1px $white, 
-      0 -2px 0 -1px $white, 
-      0 2px 0 -1px $white, 
-      -6px 0 0 -1px $white, 
-      6px 0 0 -1px $white, 
-      -4px -2px 0 -1px $white, 
-      -4px 2px 0 -1px $white, 
-      4px -2px 0 -1px $white, 
-      4px 2px 0 -1px $white;
+      box-shadow: -2px 0 0 -1px $white, 2px 0 0 -1px $white,
+        0 -2px 0 -1px $white, 0 2px 0 -1px $white, -6px 0 0 -1px $white,
+        6px 0 0 -1px $white, -4px -2px 0 -1px $white, -4px 2px 0 -1px $white,
+        4px -2px 0 -1px $white, 4px 2px 0 -1px $white;
     }
     &:after {
       background-color: $white;
@@ -2204,16 +2191,11 @@ body {
     width: 2px;
     height: 1px;
     border: 1px solid transparent;
-    box-shadow: 
-       0   9px 0 -1px currentColor, 
-      -4px 9px 0 -1px currentColor, 
-       4px 9px 0 -1px currentColor,
-       0   6px 0 -1px currentColor, 
-      -4px 6px 0 -1px currentColor, 
-       4px 6px 0 -1px currentColor,
-       0   3px 0 -1px currentColor, 
-      -4px 3px 0 -1px currentColor, 
-       4px 3px 0 -1px currentColor;
+    box-shadow: 0 9px 0 -1px currentColor, -4px 9px 0 -1px currentColor,
+      4px 9px 0 -1px currentColor, 0 6px 0 -1px currentColor,
+      -4px 6px 0 -1px currentColor, 4px 6px 0 -1px currentColor,
+      0 3px 0 -1px currentColor, -4px 3px 0 -1px currentColor,
+      4px 3px 0 -1px currentColor;
   }
   &.filled {
     background-color: currentColor;
@@ -2223,16 +2205,10 @@ body {
       border-right: solid 2px #333333;
     }
     &:after {
-      box-shadow: 
-         0   9px 0 -1px $white, 
-        -4px 9px 0 -1px $white, 
-         4px 9px 0 -1px $white,
-         0   6px 0 -1px $white, 
-        -4px 6px 0 -1px $white, 
-         4px 6px 0 -1px $white,
-         0   3px 0 -1px $white, 
-        -4px 3px 0 -1px $white, 
-         4px 3px 0 -1px $white;
+      box-shadow: 0 9px 0 -1px $white, -4px 9px 0 -1px $white,
+        4px 9px 0 -1px $white, 0 6px 0 -1px $white, -4px 6px 0 -1px $white,
+        4px 6px 0 -1px $white, 0 3px 0 -1px $white, -4px 3px 0 -1px $white,
+        4px 3px 0 -1px $white;
     }
   }
 }
@@ -2250,16 +2226,11 @@ body {
     height: 5px;
     border-left: solid 1px currentColor;
     border-right: solid 1px currentColor;
-    box-shadow: 
-       0   12px 0 -2px currentColor, 
-      -4px 12px 0 -2px currentColor, 
-       4px 12px 0 -2px currentColor,
-       0   9px 0 -2px currentColor, 
-      -4px 9px 0 -2px currentColor, 
-       4px 9px 0 -2px currentColor,
-       0   6px 0 -2px currentColor, 
-      -4px 6px 0 -2px currentColor, 
-       4px 6px 0 -2px currentColor;
+    box-shadow: 0 12px 0 -2px currentColor, -4px 12px 0 -2px currentColor,
+      4px 12px 0 -2px currentColor, 0 9px 0 -2px currentColor,
+      -4px 9px 0 -2px currentColor, 4px 9px 0 -2px currentColor,
+      0 6px 0 -2px currentColor, -4px 6px 0 -2px currentColor,
+      4px 6px 0 -2px currentColor;
   }
   &:after {
     left: -1px;
@@ -2271,16 +2242,10 @@ body {
   &.filled {
     background-color: currentColor;
     &:before {
-      box-shadow: 
-         0   12px 0 -2px $white, 
-        -4px 12px 0 -2px $white, 
-         4px 12px 0 -2px $white,
-         0   9px 0 -2px $white, 
-        -4px 9px 0 -2px $white, 
-         4px 9px 0 -2px $white,
-         0   6px 0 -2px $white, 
-        -4px 6px 0 -2px $white, 
-         4px 6px 0 -2px $white;
+      box-shadow: 0 12px 0 -2px $white, -4px 12px 0 -2px $white,
+        4px 12px 0 -2px $white, 0 9px 0 -2px $white, -4px 9px 0 -2px $white,
+        4px 9px 0 -2px $white, 0 6px 0 -2px $white, -4px 6px 0 -2px $white,
+        4px 6px 0 -2px $white;
     }
     &:after {
       background-color: $white;
@@ -2320,22 +2285,22 @@ body {
       top: 2px;
       background-color: $white;
     }
-    &.checkI i{
+    &.checkI i {
       border-color: $white;
     }
-    &.removeI i{
+    &.removeI i {
       &:before,
       &:after {
         background-color: $white;
       }
-    } 
-    &.contact i{
-      &:before, 
+    }
+    &.contact i {
+      &:before,
       &:after {
         border-color: $white;
       }
     }
-    &.paragraph i{
+    &.paragraph i {
       &:before {
         border-color: $white;
       }
@@ -2344,17 +2309,17 @@ body {
       }
     }
   }
-  &.checkI i{
+  &.checkI i {
     width: 7px;
     height: 4px;
     border-left: solid 1px currentColor;
     border-bottom: solid 1px currentColor;
     -webkit-transform: rotate(-45deg);
-            transform: rotate(-45deg);
+    transform: rotate(-45deg);
     left: 4px;
     top: 4px;
   }
-  &.removeI i{
+  &.removeI i {
     &:before,
     &:after {
       width: 8px;
@@ -2365,11 +2330,11 @@ body {
     }
     &:before {
       -webkit-transform: rotate(-45deg);
-              transform: rotate(-45deg);
+      transform: rotate(-45deg);
     }
     &:after {
       -webkit-transform: rotate(45deg);
-              transform: rotate(45deg);
+      transform: rotate(45deg);
     }
   }
   &.contact {
@@ -2397,7 +2362,7 @@ body {
       }
     }
   }
-  &.paragraph i{
+  &.paragraph i {
     left: 3px;
     top: 6px;
     &:before {
@@ -2429,10 +2394,10 @@ body {
       border-color: currentColor;
       background-color: $white;
     }
-    &.smile i{
+    &.smile i {
       border-bottom: solid 1px $white;
     }
-    &.tongue i{
+    &.tongue i {
       background-color: $white;
       &:before {
         border-top: solid 1px transparent;
@@ -2441,22 +2406,22 @@ body {
         border-left: solid 1px $white;
       }
     }
-    &.laugh i{
+    &.laugh i {
       border-color: $white;
     }
-    &.teethlaugh i{
+    &.teethlaugh i {
       border-color: $white;
       &:before {
         border-left: solid 1px $white;
         border-right: solid 1px $white;
       }
     }
-    &.bigsmile i{
+    &.bigsmile i {
       border-bottom: solid 1px $white;
       border-left: solid 1px $white;
       border-right: solid 1px $white;
-    } 
-    &.sad i{
+    }
+    &.sad i {
       border-top: solid 1px $white;
     }
     &.doublewink {
@@ -2483,7 +2448,7 @@ body {
     right: 3px;
     top: 3px;
   }
-  &.smile i{
+  &.smile i {
     left: 3px;
     top: 3px;
     width: 8px;
@@ -2494,21 +2459,21 @@ body {
     border-left: solid 1px transparent;
     border-right: solid 1px transparent;
   }
-  &.tongue i{
+  &.tongue i {
     left: 4px;
     top: 10px;
     width: 8px;
     height: 1px;
     background-color: currentColor;
     -webkit-transform: rotate(-3deg);
-            transform: rotate(-3deg);
+    transform: rotate(-3deg);
     &:before {
       top: -1px;
       right: 0px;
       width: 2px;
       height: 2px;
       -webkit-transform: rotate(-45deg);
-              transform: rotate(-45deg);
+      transform: rotate(-45deg);
       border-radius: 2px;
       border-top: solid 1px transparent;
       border-right: solid 1px transparent;
@@ -2516,7 +2481,7 @@ body {
       border-left: solid 1px currentColor;
     }
   }
-  &.laugh i{
+  &.laugh i {
     left: 2px;
     top: 9px;
     width: 10px;
@@ -2527,7 +2492,7 @@ body {
     border-left: solid 1px currentColor;
     border-right: solid 1px currentColor;
   }
-  &.teethlaugh i{
+  &.teethlaugh i {
     left: 2px;
     top: 9px;
     width: 10px;
@@ -2546,7 +2511,7 @@ body {
       border-right: solid 1px currentColor;
     }
   }
-  &.bigsmile i{
+  &.bigsmile i {
     left: 2px;
     top: 9px;
     width: 10px;
@@ -2563,7 +2528,7 @@ body {
     border-bottom: solid 1px currentColor;
     border-left: solid 1px currentColor;
     -webkit-transform: rotate(-45deg);
-            transform: rotate(-45deg);
+    transform: rotate(-45deg);
   }
   &.doublewink {
     &:before,
@@ -2573,10 +2538,10 @@ body {
       border-bottom: solid 1px currentColor;
       border-left: solid 1px currentColor;
       -webkit-transform: rotate(-45deg);
-              transform: rotate(-45deg);
+      transform: rotate(-45deg);
     }
   }
-  &.sad i{
+  &.sad i {
     left: 3px;
     top: 10px;
     width: 8px;
@@ -2615,7 +2580,7 @@ body {
     }
     &:after {
       -webkit-transform: rotate(90deg);
-              transform: rotate(90deg);
+      transform: rotate(90deg);
     }
     &.filled {
       background: currentColor;
@@ -2628,7 +2593,7 @@ body {
   &.minusI.icon {
     margin-left: 2px;
     margin-top: 2px;
-    &:before{
+    &:before {
       width: 7px;
       height: 1px;
       background-color: currentColor;
@@ -2637,7 +2602,7 @@ body {
     }
     &.filled {
       background: currentColor;
-      &:before{
+      &:before {
         background-color: $white;
       }
     }
@@ -2645,7 +2610,7 @@ body {
   &.checkI.icon {
     margin-left: 2px;
     margin-top: 2px;
-    &:before{
+    &:before {
       left: 4px;
       top: 4px;
       width: 7px;
@@ -2653,11 +2618,11 @@ body {
       border-bottom: solid 1px currentColor;
       border-left: solid 1px currentColor;
       -webkit-transform: rotate(-45deg);
-              transform: rotate(-45deg);
+      transform: rotate(-45deg);
     }
     &.filled {
       background: currentColor;
-      &:before{
+      &:before {
         border-color: $white;
       }
     }
@@ -2673,11 +2638,11 @@ body {
       height: 1px;
       background-color: currentColor;
       -webkit-transform: rotate(45deg);
-              transform: rotate(45deg);
+      transform: rotate(45deg);
     }
     &:after {
       -webkit-transform: rotate(-45deg);
-              transform: rotate(-45deg);
+      transform: rotate(-45deg);
     }
     &.filled {
       background: currentColor;
@@ -2699,7 +2664,7 @@ body {
   }
   &:after {
     -webkit-transform: rotate(90deg);
-            transform: rotate(90deg);
+    transform: rotate(90deg);
   }
 }
 .minus.icon {
@@ -2717,7 +2682,7 @@ body {
   border-bottom: solid 1px currentColor;
   border-left: solid 1px currentColor;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 .remove.icon {
   margin-left: 3px;
@@ -2728,11 +2693,11 @@ body {
     height: 1px;
     background-color: currentColor;
     -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
+    transform: rotate(45deg);
   }
   &:after {
     -webkit-transform: rotate(-45deg);
-            transform: rotate(-45deg);
+    transform: rotate(-45deg);
   }
 }
 
@@ -2751,7 +2716,7 @@ body {
     height: 4px;
     border: solid 1px currentColor;
     border-radius: 50% 50% 0 50%;
-  }  
+  }
   &:after {
     left: 3px;
     top: -6px;
@@ -2759,7 +2724,7 @@ body {
     height: 4px;
     border: solid 1px currentColor;
     border-radius: 50% 50% 50% 0;
-  } 
+  }
   i {
     &:before {
       left: -6px;
@@ -2768,7 +2733,7 @@ body {
       height: 4px;
       border: solid 1px currentColor;
       border-radius: 50% 0 50% 50%;
-    }  
+    }
     &:after {
       left: 3px;
       top: 3px;
@@ -2776,7 +2741,7 @@ body {
       height: 4px;
       border: solid 1px currentColor;
       border-radius: 0 50% 50% 50%;
-    } 
+    }
   }
 }
 .option.icon {
@@ -2785,8 +2750,7 @@ body {
   width: 5px;
   height: 1px;
   background-color: currentColor;
-  box-shadow: 9px 0 0 0 currentColor,
-              10px 14px 0 0 currentColor;
+  box-shadow: 9px 0 0 0 currentColor, 10px 14px 0 0 currentColor;
   &:before {
     height: 16px;
     width: 1px;
@@ -3000,9 +2964,9 @@ body {
     border-radius: 1px 2px 3px 1px;
   }
   &.filled {
-    &:before, 
+    &:before,
     &:after {
-      background-color: currentColor;  
+      background-color: currentColor;
     }
   }
 }
@@ -3057,7 +3021,7 @@ body {
   width: 1px;
   height: 11px;
   background-color: currentColor;
-  &:before, 
+  &:before,
   &:after {
     width: 1px;
     height: 11px;
@@ -3318,10 +3282,8 @@ body {
     width: 1px;
     height: 3px;
     background-color: currentColor;
-    box-shadow: 4px 0 0 0 currentColor,
-                8px 0 0 0 currentColor,
-                12px 0 0 0 currentColor,
-                16px 0 0 0 currentColor;
+    box-shadow: 4px 0 0 0 currentColor, 8px 0 0 0 currentColor,
+      12px 0 0 0 currentColor, 16px 0 0 0 currentColor;
   }
   &:after {
     top: -1px;
@@ -3329,26 +3291,21 @@ body {
     width: 1px;
     height: 4px;
     background-color: currentColor;
-    box-shadow: 4px 0 0 0 currentColor,
-                8px 0 0 0 currentColor,
-                12px 0 0 0 currentColor;
+    box-shadow: 4px 0 0 0 currentColor, 8px 0 0 0 currentColor,
+      12px 0 0 0 currentColor;
   }
   &.filled {
     background-color: currentColor;
     &:before {
       height: 2px;
       background-color: $white;
-      box-shadow: 4px 0 0 0 $white,
-                  8px 0 0 0 $white,
-                  12px 0 0 0 $white,
-                  16px 0 0 0 $white;
+      box-shadow: 4px 0 0 0 $white, 8px 0 0 0 $white, 12px 0 0 0 $white,
+        16px 0 0 0 $white;
     }
     &:after {
       height: 3px;
       background-color: $white;
-      box-shadow: 4px 0 0 0 $white,
-                  8px 0 0 0 $white,
-                  12px 0 0 0 $white;
+      box-shadow: 4px 0 0 0 $white, 8px 0 0 0 $white, 12px 0 0 0 $white;
     }
   }
 }
@@ -3387,16 +3344,14 @@ body {
       width: 3px;
       height: 8px;
       background-color: currentColor;
-      box-shadow: -4px 0 0 0 currentColor,
-                  -8px 0 0 0 currentColor;
+      box-shadow: -4px 0 0 0 currentColor, -8px 0 0 0 currentColor;
     }
     &:after {
       left: -1px;
       width: 1px;
       height: 7px;
       background-color: $white;
-      box-shadow: -4px 0 0 0 $white,
-                  -8px 0 0 0 $white;
+      box-shadow: -4px 0 0 0 $white, -8px 0 0 0 $white;
     }
   }
   &.filled i:after {
@@ -3415,15 +3370,10 @@ body {
     width: 2px;
     height: 2px;
     background-color: currentColor;
-    box-shadow: 0 3px 0 0 currentColor,
-                0 6px 0 0 currentColor,
-                0 9px 0 0 currentColor,
-                0 12px 0 0 currentColor,
-                17px 0px 0 0 currentColor,
-                17px 3px 0 0 currentColor,
-                17px 6px 0 0 currentColor,
-                17px 9px 0 0 currentColor,
-                17px 12px 0 0 currentColor;
+    box-shadow: 0 3px 0 0 currentColor, 0 6px 0 0 currentColor,
+      0 9px 0 0 currentColor, 0 12px 0 0 currentColor, 17px 0px 0 0 currentColor,
+      17px 3px 0 0 currentColor, 17px 6px 0 0 currentColor,
+      17px 9px 0 0 currentColor, 17px 12px 0 0 currentColor;
   }
   &:after {
     left: 3px;
@@ -3515,7 +3465,6 @@ body {
     i:after {
       background-color: currentColor;
     }
-    
   }
 }
 .shop.icon {
@@ -3578,9 +3527,8 @@ body {
     background-color: currentColor;
     left: -2px;
     border-radius: 0 0 2px 2px;
-    box-shadow: 4px 0 0 0 currentColor,
-                8px 0 0 0 currentColor,
-                12px 0 0 0 currentColor;
+    box-shadow: 4px 0 0 0 currentColor, 8px 0 0 0 currentColor,
+      12px 0 0 0 currentColor;
   }
   &:after {
     left: 3px;
@@ -3629,10 +3577,10 @@ body {
     border: solid 1px currentColor;
     border-radius: 2px;
   }
-  &:before { 
+  &:before {
     top: -6px;
   }
-  &:after { 
+  &:after {
     top: 4px;
   }
   i {
@@ -3662,8 +3610,7 @@ body {
   height: 4px;
   background-color: currentColor;
   border-radius: 2px;
-  box-shadow: 9px -5px 0 0 currentColor,
-              9px 5px 0 0 currentColor;
+  box-shadow: 9px -5px 0 0 currentColor, 9px 5px 0 0 currentColor;
   &:before {
     top: 1px;
     left: 3px;
@@ -3729,7 +3676,7 @@ body {
     background-color: currentColor;
     right: 0;
     bottom: 0;
-  } 
+  }
   i {
     width: 2px;
     height: 2px;
@@ -3749,7 +3696,7 @@ body {
       transform: rotate(45deg);
     }
   }
-  &.filled { 
+  &.filled {
     i {
       width: 3px;
       height: 3px;
@@ -3776,8 +3723,7 @@ body {
   width: 1px;
   height: 15px;
   background-color: currentColor;
-  box-shadow: 6px 0 0 0 currentColor,
-              12px 0 0 0 currentColor;
+  box-shadow: 6px 0 0 0 currentColor, 12px 0 0 0 currentColor;
   &:before {
     left: -1px;
     top: 2px;
@@ -3785,16 +3731,14 @@ body {
     height: 3px;
     border-radius: 1px;
     background-color: currentColor;
-    box-shadow: 6px 8px 0 0 currentColor,
-               12px 4px 0 0 currentColor;
+    box-shadow: 6px 8px 0 0 currentColor, 12px 4px 0 0 currentColor;
   }
   &:after {
     top: 3px;
     width: 1px;
     height: 1px;
     background-color: $white;
-    box-shadow: 6px 8px 0 0 $white,
-               12px 4px 0 0 $white;
+    box-shadow: 6px 8px 0 0 $white, 12px 4px 0 0 $white;
   }
   &.filled:after {
     display: none;
@@ -3935,7 +3879,7 @@ body {
     top: 3px;
   }
 }
-.backward-filled.icon{
+.backward-filled.icon {
   margin-left: 3px;
   margin-top: 4px;
   width: 14px;
@@ -3969,7 +3913,7 @@ body {
     top: 3px;
   }
 }
-.forward-filled.icon{
+.forward-filled.icon {
   margin-left: 4px;
   margin-top: 4px;
   width: 14px;
@@ -3989,7 +3933,7 @@ body {
 .next.icon {
   margin-left: 6px;
   margin-top: 4px;
-  &:before{
+  &:before {
     width: 9px;
     height: 9px;
     border-top: solid 1px currentColor;
@@ -4006,7 +3950,7 @@ body {
     background-color: currentColor;
   }
 }
-.next-filled.icon{
+.next-filled.icon {
   margin-left: 6px;
   margin-top: 4px;
   width: 14px;
@@ -4028,7 +3972,7 @@ body {
 .previous.icon {
   margin-left: 5px;
   margin-top: 4px;
-  &:before{
+  &:before {
     width: 9px;
     height: 9px;
     border-top: solid 1px currentColor;
@@ -4045,7 +3989,7 @@ body {
     background-color: currentColor;
   }
 }
-.previous-filled.icon{
+.previous-filled.icon {
   margin-left: 5px;
   margin-top: 4px;
   width: 14px;
@@ -4071,7 +4015,7 @@ body {
   width: 1px;
   height: 14px;
   background-color: currentColor;
-  &:before{
+  &:before {
     left: 0;
     width: 9px;
     height: 9px;
@@ -4108,7 +4052,7 @@ body {
     border-bottom: solid 7px transparent;
   }
   &:after {
-    left: 10px
+    left: 10px;
   }
 }
 .last.icon {
@@ -4117,7 +4061,7 @@ body {
   width: 1px;
   height: 14px;
   background-color: currentColor;
-  &:before, 
+  &:before,
   &:after {
     left: -9px;
     width: 9px;
@@ -4231,9 +4175,8 @@ body {
     background-color: currentColor;
     left: -2px;
     top: 3px;
-    box-shadow: 6px 0 0 0 currentColor,
-                6px -10px 0 0 currentColor,
-                12px 0 0 0 currentColor;
+    box-shadow: 6px 0 0 0 currentColor, 6px -10px 0 0 currentColor,
+      12px 0 0 0 currentColor;
   }
 }
 .layout-right-column.icon {
@@ -4782,7 +4725,7 @@ body {
   height: 5px;
   border-top: solid 1px currentColor;
   border-bottom: solid 1px currentColor;
-  &:before{
+  &:before {
     width: 1px;
     height: 7px;
     background-color: currentColor;
@@ -4790,7 +4733,7 @@ body {
     transform-origin: left bottom;
     transform: rotate(-26deg);
   }
-  &:after{
+  &:after {
     width: 1px;
     height: 10px;
     background-color: currentColor;
@@ -4805,8 +4748,7 @@ body {
     background-color: currentColor;
     top: -1px;
     left: -3px;
-    box-shadow: 10px 0 0 0 currentColor,
-                14px -3px 0 0 currentColor;
+    box-shadow: 10px 0 0 0 currentColor, 14px -3px 0 0 currentColor;
     &:before,
     &:after {
       top: 8px;
@@ -4866,7 +4808,7 @@ body {
   margin-top: 5px;
   width: 17px;
   height: 11px;
-  &:before, 
+  &:before,
   &:after {
     width: 6px;
     height: 6px;
@@ -4895,7 +4837,7 @@ body {
     }
   }
   &.filled {
-    &:before, 
+    &:before,
     &:after {
       background-color: currentColor;
     }
@@ -4906,7 +4848,7 @@ body {
   margin-top: 5px;
   width: 17px;
   height: 11px;
-  &:before, 
+  &:before,
   &:after {
     width: 6px;
     height: 6px;
@@ -4936,7 +4878,7 @@ body {
     }
   }
   &.filled {
-    &:before, 
+    &:before,
     &:after {
       background-color: currentColor;
     }
@@ -5336,8 +5278,7 @@ body {
   width: 0;
   height: 14px;
   border-left: dotted 1px currentColor;
-  box-shadow: -9px 0 0 0 currentColor,
-              9px 0 0 0 currentColor;
+  box-shadow: -9px 0 0 0 currentColor, 9px 0 0 0 currentColor;
   &:before {
     left: -12px;
     top: -3px;
@@ -5382,8 +5323,7 @@ body {
   width: 14px;
   height: 0;
   border-top: dotted 1px currentColor;
-  box-shadow: 0 -9px 0 0 currentColor,
-              0 9px 0 0 currentColor;
+  box-shadow: 0 -9px 0 0 currentColor, 0 9px 0 0 currentColor;
   &:before {
     left: -3px;
     top: -12px;
@@ -5440,7 +5380,7 @@ body {
     border-bottom: solid 1px currentColor;
     border-left: solid 1px currentColor;
   }
-  i { 
+  i {
     width: 17px;
     height: 15px;
     &:before {
@@ -5480,7 +5420,7 @@ body {
     border-top: solid 1px currentColor;
     border-left: solid 1px currentColor;
   }
-  i { 
+  i {
     width: 15px;
     height: 17px;
     &:before {
@@ -5583,9 +5523,8 @@ body {
       height: 2px;
       border-radius: 1px;
       background-color: currentColor;
-      box-shadow: 3px -2px 0 0 currentColor,
-                  3px 1px 0 0 currentColor,
-                  0 3px 0 0 currentColor;
+      box-shadow: 3px -2px 0 0 currentColor, 3px 1px 0 0 currentColor,
+        0 3px 0 0 currentColor;
     }
   }
   &.rain i {
@@ -5601,9 +5540,8 @@ body {
       width: 1px;
       height: 4px;
       background-color: currentColor;
-      box-shadow: 3px -3px 0 0 currentColor,
-                  3px -8px 0 0 currentColor,
-                  0 -5px 0 0 currentColor;
+      box-shadow: 3px -3px 0 0 currentColor, 3px -8px 0 0 currentColor,
+        0 -5px 0 0 currentColor;
     }
   }
   &.rain-drop i {
@@ -5767,15 +5705,10 @@ body {
   height: 6px;
   border: 1px solid currentColor;
   border-radius: 50%;
-  box-shadow: 
-    -8px 0 0 -3px currentColor, 
-    8px 0 0 -3px currentColor, 
-    0 -8px 0 -3px currentColor, 
-    0 8px 0 -3px currentColor, 
-    -6px -6px 0 -3px currentColor, 
-    -6px 6px 0 -3px currentColor, 
-    6px -6px 0 -3px currentColor, 
-    6px 6px 0 -3px currentColor;
+  box-shadow: -8px 0 0 -3px currentColor, 8px 0 0 -3px currentColor,
+    0 -8px 0 -3px currentColor, 0 8px 0 -3px currentColor,
+    -6px -6px 0 -3px currentColor, -6px 6px 0 -3px currentColor,
+    6px -6px 0 -3px currentColor, 6px 6px 0 -3px currentColor;
   &.filled {
     background-color: currentColor;
   }
@@ -5795,15 +5728,10 @@ body {
   height: 6px;
   border: 1px solid currentColor;
   border-radius: 50%;
-  box-shadow: 
-    -8px 0 0 -3px currentColor, 
-    8px 0 0 -3px currentColor, 
-    0 -8px 0 -3px currentColor, 
-    0 8px 0 -3px currentColor, 
-    -6px -6px 0 -3px currentColor, 
-    -6px 6px 0 -3px currentColor, 
-    6px -6px 0 -3px currentColor, 
-    6px 6px 0 -3px currentColor;
+  box-shadow: -8px 0 0 -3px currentColor, 8px 0 0 -3px currentColor,
+    0 -8px 0 -3px currentColor, 0 8px 0 -3px currentColor,
+    -6px -6px 0 -3px currentColor, -6px 6px 0 -3px currentColor,
+    6px -6px 0 -3px currentColor, 6px 6px 0 -3px currentColor;
   &:before {
     left: 3px;
     top: 3px;
@@ -5838,11 +5766,8 @@ body {
   border: 1px solid currentColor;
   border-bottom: solid 1px transparent;
   border-radius: 50%;
-  box-shadow: 
-    -8px 0 0 -3px currentColor, 
-    8px 0 0 -3px currentColor, 
-    0 -8px 0 -3px currentColor, 
-    -6px -6px 0 -3px currentColor, 
+  box-shadow: -8px 0 0 -3px currentColor, 8px 0 0 -3px currentColor,
+    0 -8px 0 -3px currentColor, -6px -6px 0 -3px currentColor,
     6px -6px 0 -3px currentColor;
   &:before {
     left: -6px;
@@ -5851,7 +5776,7 @@ body {
     height: 1px;
     background-color: currentColor;
   }
-  &.sun-rise i{
+  &.sun-rise i {
     left: 2px;
     top: 2px;
     width: 2px;
@@ -5867,7 +5792,7 @@ body {
       border-right: solid 2px transparent;
     }
   }
-  &.sun-set i{
+  &.sun-set i {
     left: 2px;
     top: 1px;
     width: 2px;
@@ -5889,13 +5814,13 @@ body {
       top: 5px;
       border-top: solid 1px $white;
     }
-    &.sun-rise i{
+    &.sun-rise i {
       background-color: $white;
       &:before {
         border-bottom-color: $white;
       }
     }
-    &.sun-set i{
+    &.sun-set i {
       background-color: $white;
       &:before {
         border-top-color: $white;
@@ -6024,7 +5949,7 @@ body {
 .thermometer.icon {
   margin-left: 7px;
   margin-top: 11px;
-  width:  6px;
+  width: 6px;
   height: 6px;
   border-radius: 4px;
   border: solid 1px currentColor;
@@ -6158,7 +6083,7 @@ body {
   margin-top: 3px;
   width: 17px;
   height: 15px;
-  &:before {    
+  &:before {
     content: "C";
     font-family: Arial, sans-serif;
     font-size: 17px;
@@ -6179,7 +6104,7 @@ body {
   margin-top: 3px;
   width: 16px;
   height: 15px;
-  &:before {    
+  &:before {
     content: "F";
     font-family: Arial, sans-serif;
     font-size: 17px;
@@ -6506,8 +6431,7 @@ body {
   margin-top: 7px;
   width: 1px;
   height: 2px;
-  box-shadow: 0 -2px 0 0 currentColor,
-              10px 7px 0 0 currentColor;
+  box-shadow: 0 -2px 0 0 currentColor, 10px 7px 0 0 currentColor;
   &:before {
     width: 4px;
     height: 10px;
@@ -6524,7 +6448,7 @@ body {
     border-left: solid 1px currentColor;
     border-right: solid 1px currentColor;
     border-top: solid 1px currentColor;
-    border-radius: 3px 3px 0 0 ;
+    border-radius: 3px 3px 0 0;
   }
   i {
     &:before {
@@ -6552,15 +6476,14 @@ body {
   margin-top: 4px;
   width: 1px;
   height: 2px;
-  box-shadow: 0 10px 0 0 currentColor,
-              10px 1px 0 0 currentColor;
+  box-shadow: 0 10px 0 0 currentColor, 10px 1px 0 0 currentColor;
   &:before {
     width: 4px;
     height: 10px;
     border-left: solid 1px currentColor;
     border-right: solid 1px currentColor;
     border-top: solid 1px currentColor;
-    border-radius: 3px 3px 0 0 ;
+    border-radius: 3px 3px 0 0;
   }
   &:after {
     top: 3px;
@@ -6641,9 +6564,8 @@ body {
     height: 5px;
     border: solid 1px currentColor;
     border-radius: 1px;
-    box-shadow: 8px 0 0 0 currentColor,
-                0 8px 0 0 currentColor,
-                8px 8px 0 0 currentColor;
+    box-shadow: 8px 0 0 0 currentColor, 0 8px 0 0 currentColor,
+      8px 8px 0 0 currentColor;
   }
   &:after {
     top: 1px;
@@ -6651,8 +6573,7 @@ body {
     width: 5px;
     height: 5px;
     background-color: $white;
-    box-shadow: 0 8px 0 0 $white,
-                -8px 8px 0 0 $white;
+    box-shadow: 0 8px 0 0 $white, -8px 8px 0 0 $white;
   }
   &.filled {
     &:before {
@@ -6674,14 +6595,10 @@ body {
     border: solid 1px currentColor;
     border-radius: 1px;
     background-color: currentColor;
-    box-shadow: 6px 0 0 0 currentColor,
-                12px 0 0 0 currentColor,
-                0 6px 0 0 currentColor,
-                6px 6px 0 0 currentColor,
-                12px 6px 0 0 currentColor,
-                0px 12px 0 0 currentColor,
-                6px 12px 0 0 currentColor,
-                12px 12px 0 0 currentColor;
+    box-shadow: 6px 0 0 0 currentColor, 12px 0 0 0 currentColor,
+      0 6px 0 0 currentColor, 6px 6px 0 0 currentColor,
+      12px 6px 0 0 currentColor, 0px 12px 0 0 currentColor,
+      6px 12px 0 0 currentColor, 12px 12px 0 0 currentColor;
   }
   &:after {
     left: 1px;
@@ -6689,15 +6606,9 @@ body {
     width: 3px;
     height: 3px;
     background-color: $white;
-    box-shadow: 6px 0 0 0 $white,
-                12px 0 0 0 $white,
-                0 6px 0 0 $white,
-                6px 6px 0 0 $white,
-                12px 6px 0 0 $white,
-                0px 12px 0 0 $white,
-                6px 12px 0 0 $white,
-                12px 12px 0 0 $white;
-    
+    box-shadow: 6px 0 0 0 $white, 12px 0 0 0 $white, 0 6px 0 0 $white,
+      6px 6px 0 0 $white, 12px 6px 0 0 $white, 0px 12px 0 0 $white,
+      6px 12px 0 0 $white, 12px 12px 0 0 $white;
   }
   &.filled {
     &:after {
@@ -6714,15 +6625,11 @@ body {
     border-radius: 50%;
     background-color: currentColor;
     border: solid 1px currentColor;
-    box-shadow: 5px 0 0 0 currentColor,
-                10px 0 0 0 currentColor,
-                0 5px 0 0 currentColor,
-                5px 5px 0 0 currentColor,
-                10px 5px 0 0 currentColor,
-                0 10px 0 0 currentColor,
-                5px 10px 0 0 currentColor,
-                10px 10px 0 0 currentColor,
-                5px 15px 0 0 currentColor;
+    box-shadow: 5px 0 0 0 currentColor, 10px 0 0 0 currentColor,
+      0 5px 0 0 currentColor, 5px 5px 0 0 currentColor,
+      10px 5px 0 0 currentColor, 0 10px 0 0 currentColor,
+      5px 10px 0 0 currentColor, 10px 10px 0 0 currentColor,
+      5px 15px 0 0 currentColor;
   }
   &:after {
     left: 1px;
@@ -6731,15 +6638,9 @@ body {
     height: 2px;
     border-radius: 50%;
     background-color: $white;
-    box-shadow: 5px 0 0 0 $white,
-                10px 0 0 0 $white,
-                0 5px 0 0 $white,
-                5px 5px 0 0 $white,
-                10px 5px 0 0 $white,
-                0 10px 0 0 $white,
-                5px 10px 0 0 $white,
-                10px 10px 0 0 $white,
-                5px 15px 0 0 $white;
+    box-shadow: 5px 0 0 0 $white, 10px 0 0 0 $white, 0 5px 0 0 $white,
+      5px 5px 0 0 $white, 10px 5px 0 0 $white, 0 10px 0 0 $white,
+      5px 10px 0 0 $white, 10px 10px 0 0 $white, 5px 15px 0 0 $white;
   }
   &.filled {
     &:after {
@@ -6789,7 +6690,7 @@ body {
     width: 2px;
     height: 2px;
     border-radius: 50%;
-    border: solid 1px currentColor; 
+    border: solid 1px currentColor;
   }
   &:before {
     top: 4px;
@@ -6825,14 +6726,13 @@ body {
   margin-top: 4px;
   width: 17px;
   height: 14px;
-  &:before {   
+  &:before {
     width: 2px;
     height: 2px;
     border-radius: 50%;
     background-color: currentColor;
     border: solid 1px currentColor;
-    box-shadow: 0 5px 0 0 currentColor,
-                0 10px 0 0 currentColor;
+    box-shadow: 0 5px 0 0 currentColor, 0 10px 0 0 currentColor;
   }
   &:after {
     left: 5px;
@@ -6841,8 +6741,7 @@ body {
     border-radius: 1px;
     background-color: currentColor;
     border: solid 1px currentColor;
-    box-shadow: 0 5px 0 0 currentColor,
-                0 10px 0 0 currentColor;
+    box-shadow: 0 5px 0 0 currentColor, 0 10px 0 0 currentColor;
   }
 }
 .list-square.icon {
@@ -6858,7 +6757,7 @@ body {
     width: 2px;
     height: 2px;
     border-radius: 1px;
-    border: solid 1px currentColor; 
+    border: solid 1px currentColor;
   }
   &:before {
     top: 4px;
@@ -6894,14 +6793,13 @@ body {
   margin-top: 4px;
   width: 17px;
   height: 14px;
-  &:before {   
+  &:before {
     width: 2px;
     height: 2px;
     border-radius: 1px;
     background-color: currentColor;
     border: solid 1px currentColor;
-    box-shadow: 0 5px 0 0 currentColor,
-                0 10px 0 0 currentColor;
+    box-shadow: 0 5px 0 0 currentColor, 0 10px 0 0 currentColor;
   }
   &:after {
     left: 5px;
@@ -6910,14 +6808,11 @@ body {
     border-radius: 1px;
     background-color: currentColor;
     border: solid 1px currentColor;
-    box-shadow: 0 5px 0 0 currentColor,
-                0 10px 0 0 currentColor;
+    box-shadow: 0 5px 0 0 currentColor, 0 10px 0 0 currentColor;
   }
 }
 
-
 // css icon 6: http://codepen.io/wentin/pen/098951f382a880f92170da12c8268e56?editors=0100
-
 
 .sync1.icon {
   margin: 3px;
@@ -6926,7 +6821,7 @@ body {
   border-radius: 50%;
   border: solid 1px currentColor;
   background-color: $white;
-  &:before, 
+  &:before,
   &:after {
     width: 4px;
     height: 1px;
@@ -6970,7 +6865,7 @@ body {
   border-radius: 50%;
   border: solid 1px currentColor;
   background-color: $white;
-  &:before, 
+  &:before,
   &:after {
     width: 4px;
     height: 1px;
@@ -7016,9 +6911,7 @@ body {
     left: 1px;
     top: 5px;
     background-color: currentColor;
-    box-shadow: 
-      6px 0 0 0 currentColor, 
-      12px 0 0 0 currentColor, 
+    box-shadow: 6px 0 0 0 currentColor, 12px 0 0 0 currentColor,
       14px 0 0 0 currentColor;
   }
   &:after {
@@ -7027,9 +6920,7 @@ body {
     left: 3px;
     top: 5px;
     background-color: currentColor;
-    box-shadow: 
-      6px 0 0 0 currentColor, 
-      15px 0 0 0 currentColor;
+    box-shadow: 6px 0 0 0 currentColor, 15px 0 0 0 currentColor;
   }
 }
 .barcode2.icon {
@@ -7041,33 +6932,21 @@ body {
     left: 1px;
     top: 5px;
     background-color: currentColor;
-    box-shadow: 
-      2px 0 0 0 currentColor, 
-      3px 0 0 0 currentColor, 
-      6px 0 0 0 currentColor, 
-      8px 0 0 0 currentColor, 
-      9px 0 0 0 currentColor, 
-      12px 0 0 0 currentColor, 
-      14px 0 0 0 currentColor, 
-      17px 0 0 0 currentColor, 
+    box-shadow: 2px 0 0 0 currentColor, 3px 0 0 0 currentColor,
+      6px 0 0 0 currentColor, 8px 0 0 0 currentColor, 9px 0 0 0 currentColor,
+      12px 0 0 0 currentColor, 14px 0 0 0 currentColor, 17px 0 0 0 currentColor,
       18px 0 0 0 currentColor;
   }
   &:after {
-      width: 1px;
-      height: 2px;
-      left: 1px;
-      top: 14px;
-      background-color: currentColor;
-      box-shadow: 
-        2px 0 0 0 currentColor, 
-        3px 0 0 0 currentColor, 
-        6px 0 0 0 currentColor, 
-        8px 0 0 0 currentColor, 
-        9px 0 0 0 currentColor, 
-        12px 0 0 0 currentColor, 
-        14px 0 0 0 currentColor, 
-        17px 0 0 0 currentColor, 
-        18px 0 0 0 currentColor;
+    width: 1px;
+    height: 2px;
+    left: 1px;
+    top: 14px;
+    background-color: currentColor;
+    box-shadow: 2px 0 0 0 currentColor, 3px 0 0 0 currentColor,
+      6px 0 0 0 currentColor, 8px 0 0 0 currentColor, 9px 0 0 0 currentColor,
+      12px 0 0 0 currentColor, 14px 0 0 0 currentColor, 17px 0 0 0 currentColor,
+      18px 0 0 0 currentColor;
   }
 }
 .pill.icon {
@@ -7138,16 +7017,16 @@ body {
       background-color: currentColor;
     }
     &:before {
-        left: -7px;
-        top: 11px;
-        transform-origin: right center;
-        transform: rotate(45deg);
+      left: -7px;
+      top: 11px;
+      transform-origin: right center;
+      transform: rotate(45deg);
     }
     &:after {
-        left: 5px;
-        top: 11px;
-        transform-origin: left center;
-        transform: rotate(-45deg);
+      left: 5px;
+      top: 11px;
+      transform-origin: left center;
+      transform: rotate(-45deg);
     }
   }
   &.filled {
@@ -7216,7 +7095,7 @@ body {
     border-left: solid 1px currentColor;
     background-color: $white;
     right: -1px;
-    bottom: -1px
+    bottom: -1px;
   }
   &.filled {
     background-color: currentColor;
@@ -7244,7 +7123,7 @@ body {
   }
   &.filled {
     background-color: currentColor;
-    &:before, 
+    &:before,
     &:after {
       background-color: currentColor;
     }
@@ -7314,13 +7193,13 @@ body {
   margin-left: 8px;
   margin-top: 9px;
   width: 3px;
-  height: 3px; 
+  height: 3px;
   border-top: solid 1px currentColor;
   border-radius: 50%;
   border-right: solid 1px transparent;
   border-bottom: solid 1px transparent;
   border-left: solid 1px transparent;
-  &:before, 
+  &:before,
   &:after {
     width: 6px;
     height: 6px;
@@ -7330,20 +7209,16 @@ body {
   }
   &:before {
     left: -7px;
-    box-shadow: 
-      -4px 0 0 -3.5px currentColor, 
-      -4.5px 0 0 -3.5px currentColor, 
+    box-shadow: -4px 0 0 -3.5px currentColor, -4.5px 0 0 -3.5px currentColor,
       -5px 0 0 -3.5px currentColor;
   }
   &:after {
     right: -7px;
-    box-shadow: 
-      4px 0 0 -3.5px currentColor, 
-      4.5px 0 0 -3.5px currentColor, 
+    box-shadow: 4px 0 0 -3.5px currentColor, 4.5px 0 0 -3.5px currentColor,
       5px 0 0 -3.5px currentColor;
   }
-  &.filled {   
-    &:before, 
+  &.filled {
+    &:before,
     &:after {
       background-color: currentColor;
     }
@@ -7353,9 +7228,9 @@ body {
   margin-left: 9px;
   margin-top: 8px;
   width: 3px;
-  height: 1px; 
+  height: 1px;
   background-color: currentColor;
-  &:before, 
+  &:before,
   &:after {
     width: 8px;
     height: 6px;
@@ -7370,8 +7245,8 @@ body {
     border-radius: 2px 3px 4px 6px;
     right: -9px;
   }
-  &.filled {   
-    &:before, 
+  &.filled {
+    &:before,
     &:after {
       background-color: currentColor;
     }
@@ -7381,9 +7256,7 @@ body {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  box-shadow: 
-    5px 8px 0 0 currentColor, 
-    10px 8px 0 0 currentColor;
+  box-shadow: 5px 8px 0 0 currentColor, 10px 8px 0 0 currentColor;
   &:before {
     border: 0 solid transparent;
     border-bottom: 6px solid currentColor;
@@ -7410,9 +7283,7 @@ body {
     width: 4px;
     height: 4px;
     border-radius: 50%;
-    box-shadow: 
-      6px 9px 0 0 $white, 
-      11px 9px 0 0 $white;
+    box-shadow: 6px 9px 0 0 $white, 11px 9px 0 0 $white;
     z-index: 2;
     &:before {
       border: 0 solid transparent;
@@ -7473,7 +7344,7 @@ body {
   border-right: solid 2px transparent;
   border-bottom: solid 11px currentColor;
   border-left: solid 2px transparent;
-  &:before { 
+  &:before {
     top: 12px;
     left: -2px;
     width: 0;
@@ -7521,7 +7392,7 @@ body {
   border-right: solid 2px transparent;
   border-bottom: solid 11px currentColor;
   border-left: solid 2px transparent;
-  &:before { 
+  &:before {
     top: 12px;
     left: -2px;
     width: 0;
@@ -7597,7 +7468,7 @@ body {
     height: 13px;
     border: double 3px $white;
     background-color: currentColor;
-    &:before, 
+    &:before,
     &:after {
       border: solid 1px $white;
     }
@@ -7666,9 +7537,7 @@ body {
     border-radius: 50%;
     left: 6px;
     top: 6px;
-    box-shadow: 
-      -7px 0 0 -1px currentColor, 
-      0 -7px 0 -1px currentColor, 
+    box-shadow: -7px 0 0 -1px currentColor, 0 -7px 0 -1px currentColor,
       7px 0 0 -1px currentColor;
   }
   &.filled {
@@ -7678,12 +7547,8 @@ body {
     }
     &:after {
       border-color: $white;
-      box-shadow: 
-        -7px 0 0 -1px $white, 
-        -8px 0 0 -1px $white, 
-        0 -7px 0 -1px $white, 
-        0 -8px 0 -1px $white, 
-        7px 0 0 -1px $white,
+      box-shadow: -7px 0 0 -1px $white, -8px 0 0 -1px $white,
+        0 -7px 0 -1px $white, 0 -8px 0 -1px $white, 7px 0 0 -1px $white,
         8px 0 0 -1px $white;
     }
   }
@@ -7714,9 +7579,7 @@ body {
     border-radius: 50%;
     left: 6px;
     top: 6px;
-    box-shadow: 
-      -7px 0 0 -1px currentColor, 
-      0 -7px 0 -1px currentColor, 
+    box-shadow: -7px 0 0 -1px currentColor, 0 -7px 0 -1px currentColor,
       7px 0 0 -1px currentColor;
   }
   &.filled {
@@ -7726,12 +7589,8 @@ body {
     }
     &:after {
       border-color: $white;
-      box-shadow: 
-        -7px 0 0 -1px $white, 
-        -8px 0 0 -1px $white, 
-        0 -7px 0 -1px $white, 
-        0 -8px 0 -1px $white, 
-        7px 0 0 -1px $white,
+      box-shadow: -7px 0 0 -1px $white, -8px 0 0 -1px $white,
+        0 -7px 0 -1px $white, 0 -8px 0 -1px $white, 7px 0 0 -1px $white,
         8px 0 0 -1px $white;
     }
   }
@@ -7762,9 +7621,7 @@ body {
     border-radius: 50%;
     left: 6px;
     top: 6px;
-    box-shadow: 
-      -7px 0 0 -1px currentColor, 
-      0 -7px 0 -1px currentColor, 
+    box-shadow: -7px 0 0 -1px currentColor, 0 -7px 0 -1px currentColor,
       7px 0 0 -1px currentColor;
   }
   &.filled {
@@ -7774,12 +7631,8 @@ body {
     }
     &:after {
       border-color: $white;
-      box-shadow: 
-        -7px 0 0 -1px $white, 
-        -8px 0 0 -1px $white, 
-        0 -7px 0 -1px $white, 
-        0 -8px 0 -1px $white, 
-        7px 0 0 -1px $white,
+      box-shadow: -7px 0 0 -1px $white, -8px 0 0 -1px $white,
+        0 -7px 0 -1px $white, 0 -8px 0 -1px $white, 7px 0 0 -1px $white,
         8px 0 0 -1px $white;
     }
   }
@@ -7812,7 +7665,7 @@ body {
     }
   }
   &.filled {
-    &:before, 
+    &:before,
     &:after {
       background-color: currentColor;
     }
@@ -7846,7 +7699,7 @@ body {
     }
   }
   &.filled {
-    &:before, 
+    &:before,
     &:after {
       background-color: currentColor;
     }
@@ -7880,7 +7733,7 @@ body {
     }
   }
   &.filled {
-    &:before, 
+    &:before,
     &:after {
       background-color: currentColor;
     }
@@ -7914,7 +7767,7 @@ body {
     }
   }
   &.filled {
-    &:before, 
+    &:before,
     &:after {
       background-color: currentColor;
     }
@@ -7948,7 +7801,7 @@ body {
     }
   }
   &.filled {
-    &:before, 
+    &:before,
     &:after {
       background-color: currentColor;
     }
@@ -7982,7 +7835,7 @@ body {
     }
   }
   &.filled {
-    &:before, 
+    &:before,
     &:after {
       background-color: currentColor;
     }
@@ -7990,7 +7843,7 @@ body {
 }
 .hammerFilled.icon {
   margin-left: 4px;
-  margin-top: 0px; 
+  margin-top: 0px;
   width: 13px;
   height: 13px;
   border-radius: 50%;
@@ -8002,8 +7855,7 @@ body {
     height: 13px;
     border-radius: 50%;
     left: -13px;
-    box-shadow: 13px -9px 0 0 $white,
-                13px 9px 0 0 $white;
+    box-shadow: 13px -9px 0 0 $white, 13px 9px 0 0 $white;
   }
   &:after {
     width: 3px;
@@ -8015,7 +7867,7 @@ body {
 }
 .hammer.icon {
   margin-left: 4px;
-  margin-top: 0px; 
+  margin-top: 0px;
   width: 11px;
   height: 11px;
   border-radius: 50%;
@@ -8070,20 +7922,20 @@ body {
 }
 .wrenchFilled.icon {
   margin-left: 5px;
-  margin-top: 0px; 
+  margin-top: 0px;
   width: 10px;
   height: 10px;
   border-radius: 50%;
   background-color: currentColor;
   transform-origin: center 10.5px;
   transform: rotate(-45deg);
-  &:after { 
+  &:after {
     width: 0;
     height: 0;
     border-radius: 0 0 1px 1px;
     background-color: currentColor;
     border-left: solid 1px transparent;
-    border-right: solid 1px transparent;   
+    border-right: solid 1px transparent;
     border-top: solid 1px $white;
     border-bottom: solid 1px transparent;
     left: 4px;
@@ -8095,21 +7947,20 @@ body {
     background-color: $white;
     left: 4px;
     border-radius: 0 0 1px 1px;
-    box-shadow: 0 15px 0px 1px currentColor,
-                0 11px 0px 1px currentColor,
-                0 8px 0px 1px currentColor;
+    box-shadow: 0 15px 0px 1px currentColor, 0 11px 0px 1px currentColor,
+      0 8px 0px 1px currentColor;
   }
 }
 .wrench.icon {
   margin-left: 5px;
-  margin-top: 0px; 
+  margin-top: 0px;
   width: 8px;
   height: 8px;
   border-radius: 50%;
   border: solid 1px currentColor;
   transform-origin: center 10.5px;
   transform: rotate(-45deg);
-  &:before { 
+  &:before {
     top: -1px;
     left: 2px;
     width: 2px;
@@ -8516,7 +8367,6 @@ body {
     }
     &:after {
       background-color: $white;
-      
     }
   }
 }
@@ -8560,12 +8410,12 @@ body {
     }
   }
   &.filled {
-    &:before, 
+    &:before,
     &:after {
       width: 0;
     }
     i {
-      &:before, 
+      &:before,
       &:after {
         width: 0;
       }
@@ -8619,4 +8469,3 @@ body {
     }
   }
 }
-

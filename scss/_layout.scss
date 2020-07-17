@@ -1,7 +1,7 @@
 //layout.scss
 $borderRadius: 0;
 $borderColor: #ccc;
-$highlightColor: #3CD5FF;
+$highlightColor: #3cd5ff;
 $animateHighlightColor: #ff50a6;
 
 body {
@@ -99,7 +99,7 @@ button {
 }
 .iconsAnimateIconToAssignA.icons .iconWrapper:hover,
 .iconsAnimateIconToAssignB.icons .iconWrapper:hover {
-  &:before{
+  &:before {
     content: "";
     position: absolute;
     right: -2px;
@@ -116,12 +116,12 @@ button {
   .A.iconMarker {
     display: block;
   }
-} 
+}
 .iconsAnimateIconToAssignB.icons .iconWrapper:hover {
   .B.iconMarker {
     display: block;
   }
-} 
+}
 
 .icons {
   width: 100%;
@@ -220,7 +220,6 @@ button {
       i {
         background: url(../images/twitter.svg) no-repeat center bottom;
       }
-
     }
   }
 }
@@ -239,7 +238,8 @@ button {
     background-color: white;
     z-index: 9;
     cursor: pointer;
-    &:before, &:after {
+    &:before,
+    &:after {
       content: "";
       position: absolute;
       display: block;
@@ -309,7 +309,7 @@ button {
       &:hover {
         background-color: #000;
         color: white;
-        svg path{
+        svg path {
           fill: white;
         }
       }
@@ -478,7 +478,7 @@ button {
         color: $animateHighlightColor;
       }
     }
-    &:before{
+    &:before {
       content: "";
       position: absolute;
       right: -2px;
@@ -547,7 +547,6 @@ button {
     &.N {
       position: relative;
     }
-    
   }
 }
 .containerHome .logo .icon:hover {
@@ -592,18 +591,18 @@ button {
     outline: none;
     border-radius: 0;
     -webkit-appearance: none;
-  }   
+  }
   ::-webkit-input-placeholder {
-     color: #000;
+    color: #000;
   }
   :-moz-placeholder {
-     color: #000;  
+    color: #000;
   }
   ::-moz-placeholder {
-     color: #000;  
+    color: #000;
   }
-  :-ms-input-placeholder {  
-     color: #000;  
+  :-ms-input-placeholder {
+    color: #000;
   }
   .search.icon {
     display: none;
@@ -636,7 +635,7 @@ button {
   .container.viewerOpen {
     .logo {
       margin-bottom: 20px;
-    }    
+    }
     .searchWrapper {
       width: auto;
       position: relative;
@@ -659,7 +658,7 @@ button {
   .container {
     &.viewerOpen {
       .icons {
-        width: calc( 100% - 365px);
+        width: calc(100% - 365px);
       }
       .viewer {
         width: 365px;
@@ -694,7 +693,8 @@ button {
       top: 40px;
       width: 31px;
       height: 31px;
-      &:before, &:after {
+      &:before,
+      &:after {
         width: 41px;
         left: -5px;
         top: 15px;
